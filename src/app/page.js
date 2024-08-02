@@ -107,6 +107,12 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <Image
+            src="/up-arrow.png"
+            alt="my logo"
+            width={24}
+            height={24}
+            />
       </div>
     </main>
   );
