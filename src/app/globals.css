@@ -15,6 +15,36 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.btn-effect{
+  transition: all ease-in-out .4s;
+}
+.btn-effect:hover{
+  transform: scale(1.25);
+}
+.arrow-flip{
+  transform: rotateX(180deg) translateY(2px);
+  transition: all ease-in-out .5s;
+}
+.hdr-link:hover{
+  cursor: pointer;
+}
+.hdr-link:hover .arrow-flip{
+  transform: rotateX(0deg);
+}
+.hdr-link:hover .hdr-submenu{
+  transform: translateY(8px) translateX(-40px);
+}
+.hdr-submenu{
+  transform: translateY(-500px) translateX(-40px);
+  transition: all ease-in-out 1s;
+  background: linear-gradient(30deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
+}
+.hdr-submenu-link{
+  transition: all ease-in-out .3s;
+}
+.hdr-submenu-link:hover{
+  transform: scale(1.05);
+}
 
 body {
   color: rgb(var(--foreground-rgb));

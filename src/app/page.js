@@ -1,8 +1,56 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
+      <header className="w-full h-fit bg-slate-100 pt-2 pb-2 pl-12 pr-12 sticky top-0 z-50">
+        <div className="flex justify-between items-center"> 
+          <div>
+            <Image
+            src ="/logoaqua.svg"
+            alt = "logoaqua"
+            width={250}
+            height={100}
+            />
+          </div>
+          <div className="flex gap-12 justify-end w-fit overflow-hidden items-center">
+            <Link href="/" className="text-stone-700 font-bold flex hdr-link">HOME</Link>
+            <Link href="/" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">LINE UP <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" /></Link>
+            <div href="#" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">TAQUILLA <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" />
+              <div className="hdr-submenu h-fit w-64 absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ABONOS-ENTRADAS<Image src="/buy.svg" alt="buy icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">BONO CULTURAL JOVEN<Image src="/perrosanxe.svg" alt="sanxe perro" width={24} height={24}/></Link>
+              </div>
+            </div>
+            <div href="/" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">SERVICIOS <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/>
+              <div className="hdr-submenu h-fit w-64 absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ZONA DESCANSO<Image src="/camping.svg" alt="camping icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ZONA VIP<Image src="/vip.svg" alt="vip icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">PARKING AUTOCARAVANAS<Image src="/van.svg" alt="van icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">LOCKERS<Image src="/locker.svg" alt="locker icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">TRANSPORTES<Image src="/bus.svg" alt="bus icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">BATERIAS MÓVILES<Image src="/battery.svg" alt="charger icon" width={24} height={24}/></Link>
+                <Link href="#"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">MERCHANDISING<Image src="/merch.svg" alt="merch icon" width={24} height={24}/></Link>
+              </div>
+            </div>
+            <Link href="/" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">INFO <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/></Link>
+            <Link href="/" className="text-stone-700 font-bold hdr-link">TOUR</Link>
+          </div>
+        </div>
+      </header>
+      <button className="btn-effect absolute bottom-12 right-16">
+      <Image
+      src="/up-arrow.svg"
+      alt="up logo"
+      width={32}
+      height={32}
+      className=""
+      />
+      </button>
+    </main>
+    
+    /* <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
@@ -114,6 +162,6 @@ export default function Home() {
             height={24}
             />
       </div>
-    </main>
+    </main> */
   );
 }
