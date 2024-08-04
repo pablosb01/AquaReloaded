@@ -5,10 +5,10 @@ export default function Video() {
         <iframe 
         width="560" 
         height="315" 
-        src="https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&start=50&autoplay=1&mute=1&loop=1&controls=0&origin=https" 
+        src="https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&autoplay=1&mute=1&loop=1&controls=0&origin=https" 
         title="YouTube video player" 
         frameborder="0" 
-        className="absolute top-0 left-0 w-[2400px] h-[1048px] object-cover video-embed"
+        className="absolute top-0 left-0 w-[2100px] h-[1048px] object-cover video-embed"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
