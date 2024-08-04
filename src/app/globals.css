@@ -45,6 +45,9 @@
 .hdr-submenu-link:hover{
   transform: scale(1.05);
 }
+.video-embed{
+  transform: translateX(-15%);
+}
 
 body {
   color: rgb(var(--foreground-rgb));
