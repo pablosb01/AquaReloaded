@@ -6,12 +6,12 @@ import { artistas } from './Artistas.js'
 export default function Video() {
   return (
     <>
-      <div className="box-border absolute top-0 left-0 w-full h-[35vw] min-h-[480px] pt-6 overflow-hidden z-0">
+      <div className="box-border relative top-0 left-0 w-full h-[35vw] min-h-[480px] overflow-hidden z-0">
         <div className="absolute box-border flex flex-nowrap w-full h-full overflow-hidden">
           <iframe
               width="720"
               height="480"
-              src={`https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&end=220&autoplay=1&mute=1&loop=1&controls=0&origin=https&fullscreen=1&playlist=sT4lpLhzUYU`}
+              src={`https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&end=220&rel=0&modestbranding=0&autoplay=1&mute=1&loop=1&controls=0&origin=https&fullscreen=1&playlist=sT4lpLhzUYU`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="relative top-0 left-0 video-embed overflow-hidden"

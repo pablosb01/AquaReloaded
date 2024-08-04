@@ -6,8 +6,8 @@ import Link from "next/link"; */
 export default function Home() {
   return (
     <main className="min-h-fit h-[100vh]">
-      <Video/>
-      <p>Home Page</p>
+        <Video/>
+        <p>Home Page</p>      
       
       {/* <header className="w-full h-fit bg-slate-100 pt-2 pb-2 pl-12 pr-12 sticky top-0 z-50">
         <div className="flex justify-between items-center"> 
