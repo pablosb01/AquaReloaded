@@ -77,7 +77,15 @@
   height: 1100px;
   transform: translateY(-250px);
 }
+.sombrita{
+  filter: drop-shadow(
+    0 0 4px rgba(252, 49, 94, 1)
+  )
+}
 
+.gradient {
+  background: linear-gradient(90deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
+}
 
 
 body {

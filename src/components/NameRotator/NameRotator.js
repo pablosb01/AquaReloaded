@@ -15,7 +15,7 @@ export default function NameRotator({names, interval = 1000}) {
 
     return(
         <div>
-            <h1 className='text-4xl'>{names[currentIndex]}</h1>
+            <h1 className='text-5xl'>{names[currentIndex]}</h1>
         </div>
     )
 }

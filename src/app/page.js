@@ -5,7 +5,7 @@ import Link from "next/link"; */
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="min-h-fit h-[100vh]">
       <Video/>
       <p>Home Page</p>
       

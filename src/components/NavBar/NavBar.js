@@ -51,15 +51,6 @@ export default function NavBar() {
           </div>
         </div>
       </header>
-      <button className="btn-effect absolute bottom-12 right-16 z-50">
-      <Image
-      src="/up-arrow.svg"
-      alt="up logo"
-      width={32}
-      height={32}
-      className=""
-      />
-      </button>
     </>
     
   );

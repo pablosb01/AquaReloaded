@@ -1,7 +1,8 @@
+import Footer from "@/components/Footer/Footer.js";
 import { inter, roboto_mono, bebas_neue } from "./fonts.js";
 import "./globals.css";
 import NavBar from "@/components/NavBar/NavBar";
-import Video from "@/components/Video/Video";
+import BackButton from "@/components/BackButton/BackButton.js";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,9 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${bebas_neue.className} bg-stone-900`}>
+      <body className={`${bebas_neue.className} bg-stone-900 h-fit`}>
+        <div className='w-[0px] h-[0px]' id='bck'></div>
         <NavBar/>
         {children}
+        <BackButton/>
+        <Footer/>
         </body>
       
     </html>
