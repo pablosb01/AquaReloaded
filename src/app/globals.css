@@ -15,6 +15,32 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 .btn-effect{
   transition: all ease-in-out .4s;
 }
@@ -46,17 +72,18 @@
   transform: scale(1.05);
 }
 .video-embed{
-  transform: translateX(-10%);
+  overflow: hidden;
+  width: 100vw;
+  height: 1000px;
+  transform: translateY(-250px);
 }
+
+
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /*!Esto lo dejo por si queremos meter un gradient al background, aunque podemos hacerlo con tailwind!*/
+  /* background: linear-gradient(90deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%); */
 }
 
 @layer utilities {

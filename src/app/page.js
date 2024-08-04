@@ -1,11 +1,12 @@
 import NavBar from "@/components/NavBar/NavBar";
+import Video from "@/components/Video/Video.jsx";
 /* import Image from "next/image";
 import Link from "next/link"; */
 
 export default function Home() {
   return (
     <main className="">
-      
+      <Video/>
       <p>Home Page</p>
       
       {/* <header className="w-full h-fit bg-slate-100 pt-2 pb-2 pl-12 pr-12 sticky top-0 z-50">
