@@ -17,16 +17,16 @@ export default function NavBar() {
             </div>
           </a>
           <div className="flex gap-12 justify-end w-fit overflow-hidden items-center">
-            <Link href="/" className="text-stone-700 font-bold flex hdr-link">HOME</Link>
-            <Link href="/lineup" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">LINE UP <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" /></Link>
-            <div href="/taquilla" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">TAQUILLA <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" />
-              <div className="hdr-submenu h-fit w-64 absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
+            <Link href="/" className="text-stone-700 font-bold text-2xl flex hdr-link">HOME</Link>
+            <Link href="/lineup" className="text-stone-700 font-bold flex text-2xl gap-2 hdr-link items-center">LINE UP <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" /></Link>
+            <div href="/taquilla" className="text-stone-700 font-bold flex gap-2 text-2xl hdr-link items-center">TAQUILLA <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip" />
+              <div className="hdr-submenu h-fit w-64 text-xl absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
                 <Link href="/taquilla/abonos"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ABONOS-ENTRADAS<Image src="/buy.svg" alt="buy icon" width={24} height={24}/></Link>
                 <Link href="/taquilla/bonocultural"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">BONO CULTURAL JOVEN<Image src="/perrosanxe.svg" alt="sanxe perro" width={24} height={24}/></Link>
               </div>
             </div>
-            <div href="/servicios" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">SERVICIOS <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/>
-              <div className="hdr-submenu h-fit w-64 absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
+            <div href="/servicios" className="text-stone-700 text-2xl font-bold flex gap-2 hdr-link items-center">SERVICIOS <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/>
+              <div className="hdr-submenu text-xl h-fit w-64 absolute flex flex-col gap-5 top-10 mt-6 text-sm opacity-85 p-5 items-start">
                 <Link href="/servicios/zonadescanso"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ZONA DESCANSO<Image src="/camping.svg" alt="camping icon" width={24} height={24}/></Link>
                 <Link href="/servicios/zonavip"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ZONA VIP<Image src="/vip.svg" alt="vip icon" width={24} height={24}/></Link>
                 <Link href="/servicios/parkingcaravanas"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">PARKING AUTOCARAVANAS<Image src="/van.svg" alt="van icon" width={24} height={24}/></Link>
@@ -46,8 +46,8 @@ export default function NavBar() {
                 <Link target="_blank" rel="noopener noreferrer" href="https://aquasellashop.com"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">MERCHANDISING<Image src="/merch.svg" alt="merch icon" width={24} height={24}/></Link>
               </div>
             </div>
-            <Link href="/info" className="text-stone-700 font-bold flex gap-2 hdr-link items-center">INFO <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/></Link>
-            <Link href="/" className="text-stone-700 font-bold hdr-link">TOUR</Link>
+            <Link href="/info" className="text-stone-700 font-bold flex gap-2 text-2xl hdr-link items-center">INFO <Image src="/arrow.svg" alt="arrow" width={32} height={32} className="arrow-flip"/></Link>
+            <Link href="/" className="text-stone-700 font-bold text-2xl hdr-link">TOUR</Link>
           </div>
         </div>
       </header>

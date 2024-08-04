@@ -1,9 +1,7 @@
-import { Inter } from "next/font/google";
+import { inter, roboto_mono, bebas_neue } from "./fonts.js";
 import "./globals.css";
 import NavBar from "@/components/NavBar/NavBar";
 import Video from "@/components/Video/Video";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,9 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={bebas_neue.className}>
         <NavBar/>
-        <Video/>
+        
         {children}
         </body>
       
