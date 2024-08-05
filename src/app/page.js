@@ -3,7 +3,6 @@ import React from "react";
 import Video from "@/components/Video/Video.jsx";
 /* import Image from "next/image";
 import SimpleSlider from "@/components/SimpleSlider/SimpleSlider"; */
-import 'bootstrap/dist/css/bootstrap.min.css';
 import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

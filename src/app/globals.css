@@ -67,26 +67,12 @@
 .hdr-submenu{
   transform: translateY(-200px) translateX(-70px);
   transition: all ease-in-out 1s;
-  padding: 5px;
   background: linear-gradient(30deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
 }
 .hdr-submenu-long{
-  padding: 5px;
   transform: translateY(-500px) translateX(-70px);
   background: linear-gradient(30deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
   transition: all ease-in-out 1.5s;
-}
-
-.hdr-link{
-  text-decoration: none;
-  margin: 0;
-  padding:0;
-  a{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-  }
-
 }
 
 .hdr-submenu-link{
