@@ -10,14 +10,39 @@ import Link from "next/link"; */
 
 export default function Home() {
   return (
-    <main className="min-h-fit h-[100vh]">
+    <main className="min-h-fit h-fit">
         <Video/>
-        <div className="relative flex flex-row box-border h-fit w-full justify-between p-12">
-          <div className="flex flex-row gap-5">
-            <h2 className="text-4xl">NOTICIAS</h2>
-            {/*SimpleSlider/>*/}          
+        <div className="relative flex flex-row box-border h-fit w-full gap-[10%] justify-evenly px-16 py-8">
+          <div className="flex flex-col gap-5 items-center box-border]">
+            <h2 className="text-4xl w-100">NOTICIAS</h2>
+            {/*SimpleSlider/>*/}
+            <div className="w-[100%] h-[400px] overflow-hidden flex">
+              
+            {/* AQUI IRIA EL SLIDER DE LAS NOTICIAS */}
+
+              <Image
+              src="/sold-out.png"
+              alt="sold out"
+              width={500}
+              height={400}
+              className="object-cover"
+              />
+            </div>
           </div>
-          <h2 className="text-4xl">CARTEL POR DIAS</h2>
+          <div className="flex flex-col gap-5 items-center">
+            <h2 className="text-4xl">CARTEL POR DIAS</h2>
+            <div className="w-[100%] h-[400px] overflow-hidden flex">
+
+               {/* Y ESTO POR SI QUEREMOS AÑADIR UN SEGUNDO SLIDER */}
+              <Image
+                src="/sold-out.png"
+                alt="sold out"
+                width={500}
+                height={400}
+                className="object-cover"
+                />
+            </div>
+          </div>
         </div>
              
       
