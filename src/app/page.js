@@ -1,5 +1,10 @@
 import NavBar from "@/components/NavBar/NavBar";
+import React from "react";
 import Video from "@/components/Video/Video.jsx";
+import Image from "next/image";
+/* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
+/* import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"; */
 /* import Image from "next/image";
 import Link from "next/link"; */
 
@@ -7,7 +12,14 @@ export default function Home() {
   return (
     <main className="min-h-fit h-[100vh]">
         <Video/>
-        <p>Home Page</p>      
+        <div className="relative flex flex-row box-border h-fit w-full justify-between p-12">
+          <div className="flex flex-row gap-5">
+            <h2 className="text-4xl">NOTICIAS</h2>
+            {/*SimpleSlider/>*/}          
+          </div>
+          <h2 className="text-4xl">CARTEL POR DIAS</h2>
+        </div>
+             
       
       {/* <header className="w-full h-fit bg-slate-100 pt-2 pb-2 pl-12 pr-12 sticky top-0 z-50">
         <div className="flex justify-between items-center"> 

@@ -6,7 +6,7 @@ import { artistas } from './Artistas.js'
 export default function Video() {
   return (
     <>
-      <div className="box-border relative top-0 left-0 w-full h-[35vw] min-h-[480px] overflow-hidden z-0">
+      <div className="box-border relative top-0 left-0 w-full h-[25vw] min-h-[360px] overflow-hidden z-0">
         <div className="absolute box-border flex flex-nowrap w-full h-full overflow-hidden">
           <iframe
               width="720"
