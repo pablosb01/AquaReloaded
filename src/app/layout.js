@@ -1,8 +1,10 @@
 import Footer from "@/components/Footer/Footer.js";
 import { inter, roboto_mono, bebas_neue } from "./fonts.js";
-import "./globals.css";
 import NavBar from "@/components/NavBar/NavBar";
 import BackButton from "@/components/BackButton/BackButton.js";
+import "./globals.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const metadata = {
   title: "Create Next App",
@@ -13,13 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${bebas_neue.className} bg-stone-900 h-fit`}>
-        <div className='w-[0px] h-[0px]' id='bck'></div>
-        <NavBar/>
+        <div className="w-[0px] h-[0px]" id="bck"></div>
+        <NavBar />
         {children}
-        <BackButton/>
-        <Footer/>
-        </body>
-      
+        <BackButton />
+        <Footer />
+      </body>
     </html>
   );
 }

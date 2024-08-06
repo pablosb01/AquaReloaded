@@ -2,6 +2,8 @@ import NavBar from "@/components/NavBar/NavBar";
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
 import Image from "next/image";
+import SimpleSlider from "@/components/SimpleSlider/SimpleSlider";
+
 /* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
 /* import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; */
@@ -11,41 +13,28 @@ import Link from "next/link"; */
 export default function Home() {
   return (
     <main className="min-h-fit h-fit">
-        <Video/>
-        <div className="relative flex flex-row box-border h-fit w-full gap-[10%] justify-evenly px-16 py-8">
-          <div className="flex flex-col gap-5 items-center box-border]">
-            <h2 className="text-4xl w-100">NOTICIAS</h2>
-            {/*SimpleSlider/>*/}
-            <div className="w-[100%] h-[400px] overflow-hidden flex">
-              
-            {/* AQUI IRIA EL SLIDER DE LAS NOTICIAS */}
-
-              <Image
-              src="/sold-out.png"
-              alt="sold out"
-              width={500}
-              height={400}
-              className="object-cover"
-              />
-            </div>
+      <Video />
+      <div className="flex justify-evenly">
+        <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
+          <div className="self-start pb-5">
+            <p className="text-4xl">Noticias</p>
           </div>
-          <div className="flex flex-col gap-5 items-center">
-            <h2 className="text-4xl">CARTEL POR DIAS</h2>
-            <div className="w-[100%] h-[400px] overflow-hidden flex">
-
-               {/* Y ESTO POR SI QUEREMOS AÑADIR UN SEGUNDO SLIDER */}
-              <Image
-                src="/sold-out.png"
-                alt="sold out"
-                width={500}
-                height={400}
-                className="object-cover"
-                />
-            </div>
+          <div className="w-[550px]">
+            <SimpleSlider />
           </div>
         </div>
-             
-      
+        <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
+          <div className="self-end pb-5">
+            <p className="text-4xl">MERCHANDISING</p>
+          </div>
+          <div className="w-[550px]">
+            <a href='https://aquasellashop.com' target='_blank'>
+              <SimpleSlider />
+            </a>
+          </div>
+        </div>
+      </div>
+
       {/* <header className="w-full h-fit bg-slate-100 pt-2 pb-2 pl-12 pr-12 sticky top-0 z-50">
         <div className="flex justify-between items-center"> 
           <div>
@@ -91,7 +80,7 @@ export default function Home() {
       />
       </button> */}
     </main>
-    
+
     /* <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">

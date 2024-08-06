@@ -101,6 +101,12 @@
   background: linear-gradient(90deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
 }
 
+.slider-imguwu{
+  height: 550px;
+  width: 700px;
+  object-fit: cover;
+}
+
 
 body {
   color: rgb(var(--foreground-rgb));
