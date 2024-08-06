@@ -107,6 +107,12 @@
   object-fit: cover;
 }
 
+.slider-imguwu2{
+  height: 700px;
+  width: 700px;
+  object-fit: cover;
+}
+
 
 body {
   color: rgb(var(--foreground-rgb));

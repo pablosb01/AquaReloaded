@@ -3,6 +3,7 @@ import React from "react";
 import Video from "@/components/Video/Video.jsx";
 import Image from "next/image";
 import SimpleSlider from "@/components/SimpleSlider/SimpleSlider";
+import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
 
 /* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
 /* import "slick-carousel/slick/slick.css";
@@ -28,9 +29,7 @@ export default function Home() {
             <p className="text-4xl">MERCHANDISING</p>
           </div>
           <div className="w-[550px]">
-            <a href='https://aquasellashop.com' target='_blank'>
-              <SimpleSlider />
-            </a>
+            <MerchanSlider/>
           </div>
         </div>
       </div>
