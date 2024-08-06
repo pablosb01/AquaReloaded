@@ -1,13 +1,6 @@
 
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
-/* import Image from "next/image";
-import SimpleSlider from "@/components/SimpleSlider/SimpleSlider"; */
-import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-/* import Image from "next/image";
-import Link from "next/link"; */
 
 export default function Home() {
   return (
@@ -15,8 +8,7 @@ export default function Home() {
         <Video/>
         <div className="relative flex flex-row box-border h-fit w-full justify-between p-12">
           <div className="flex flex-row gap-5">
-            <h2 className="text-4xl">NOTICIAS</h2>
-            <SimpleSlider/>          
+            <h2 className="text-4xl">NOTICIAS</h2>        
           </div>
           <h2 className="text-4xl">CARTEL POR DIAS</h2>
         </div>

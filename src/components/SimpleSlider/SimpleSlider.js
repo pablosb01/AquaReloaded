@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Carousel } from "react-bootstrap";
 
 const SimpleSlider = () => {
   const [index, setIndex] = useState(0);
