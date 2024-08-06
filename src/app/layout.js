@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer/Footer.js";
-import { inter, roboto_mono, bebas_neue } from "./fonts.js";
+import { inter, roboto, bebas_neue } from "./fonts.js";
 import NavBar from "@/components/NavBar/NavBar";
 import BackButton from "@/components/BackButton/BackButton.js";
 import "./globals.css";

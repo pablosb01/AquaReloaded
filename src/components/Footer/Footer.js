@@ -21,13 +21,13 @@ export default function Footer() {
               Condiciones Generales
             </Link>
             <a target='_blank' href="https://www.instagram.com/aquasellafest">
-              <Image src="ig.svg" alt="instagram" width={24} height={24}/>
+              <Image src="../ig.svg" alt="instagram" width={24} height={24}/>
             </a>
             <a target='_blank' href="https://www.facebook.com/aquasellafest">
-              <Image src="fb.svg" alt="facebook" width={24} height={24}/>
+              <Image src="../fb.svg" alt="facebook" width={24} height={24}/>
             </a>
             <a target='_blank' href="https://www.youtube.com/user/AquasellaChannel">
-              <Image src="yt.svg" alt="facebook" width={24} height={24}/>
+              <Image src="../yt.svg" alt="facebook" width={24} height={24}/>
             </a>
 
           </div>

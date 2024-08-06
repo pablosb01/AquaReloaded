@@ -13,7 +13,7 @@ export default function NavBar() {
           <a href='/' className="hrd-icon w-fit h-full box-border">
             <div>
                 <Image
-                src ="logoaqua.svg"
+                src ="../logoaqua.svg"
                 alt = "logoaqua"
                 width={250}
                 height={100}

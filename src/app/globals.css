@@ -59,10 +59,10 @@
   transform: rotateX(0deg);
 }
 .hdr-link:hover .hdr-submenu{
-  transform: translateY(8px) translateX(-70px);
+  transform: translateY(16px) translateX(-70px);
 }
 .hdr-link:hover .hdr-submenu-long{
-  transform: translateY(8px) translateX(-70px);
+  transform: translateY(16px) translateX(-70px);
 }
 .hdr-submenu{
   transform: translateY(-200px) translateX(-70px);
@@ -95,6 +95,14 @@
   filter: drop-shadow(
     0 0 6px #8b8b8b
   )
+}
+.sombrita-tres{
+  filter: drop-shadow(
+    0 0 6px #ef711d
+  )
+}
+.loca-link{
+  transition: all ease-in-out .3s;
 }
 
 .gradient {
