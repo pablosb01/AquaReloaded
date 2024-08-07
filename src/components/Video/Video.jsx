@@ -11,7 +11,7 @@ export default function Video() {
           <iframe
               width="720"
               height="480"
-              src={`https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&end=220&rel=0&modestbranding=0&autoplay=1&mute=1&loop=1&controls=0&origin=https&fullscreen=1&playlist=sT4lpLhzUYU`}
+              src={`https://www.youtube.com/embed/sT4lpLhzUYU?si=3TLGc-FuXAlYXauE?enablejsapi=1&end=220&rel=0&modestbranding=0&autoplay=1&mute=1&loop=1&start=60&controls=0&origin=https&fullscreen=1&playlist=sT4lpLhzUYU`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="relative top-0 left-0 video-embed overflow-hidden"
