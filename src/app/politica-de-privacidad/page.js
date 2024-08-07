@@ -22,22 +22,24 @@ export default function PoliticaPrivacidad() {
                 datos para que Usted determine voluntariamente si desea
                 facilitar sus datos personales a la Compañía.
               </p>
-              <p className="text-left text-xl w-full px-6">
-                1. Recogida y uso de datos La Compañía le informa que sus datos
-                personales recogidos a través de las páginas web
-                https://www.aquasella.com (en adelante, el Portal), así como los
-                que pudiera facilitar en el futuro en el marco de su relación
-                con esta entidad, serán objeto de tratamiento con la finalidad
-                de hacer posible el registro de los usuarios, gestionar,
-                administrar y prestarle los servicios o productos que solicite o
-                contrate a través del Portal, facilitar el cumplimiento y
-                ejecución de dichos servicios, conocer mejor sus gustos y
-                opiniones respecto a los servicios de la Compañía y adecuar los
-                mismos a sus preferencias, así como poder ofrecerle nuevos
-                servicios y enviarle información comercial, incluso por vía
-                electrónica, relacionada con las novedades y promociones de la
-                Compañía.{" "}
-              </p>
+              <div className="text-left text-xl w-full px-6">
+                <p>1. Recogida y uso de datos</p>
+                <p>
+                  La Compañía le informa que sus datos personales recogidos a
+                  través de las páginas web https://www.aquasella.com (en
+                  adelante, el Portal), así como los que pudiera facilitar en el
+                  futuro en el marco de su relación con esta entidad, serán
+                  objeto de tratamiento con la finalidad de hacer posible el
+                  registro de los usuarios, gestionar, administrar y prestarle
+                  los servicios o productos que solicite o contrate a través del
+                  Portal, facilitar el cumplimiento y ejecución de dichos
+                  servicios, conocer mejor sus gustos y opiniones respecto a los
+                  servicios de la Compañía y adecuar los mismos a sus
+                  preferencias, así como poder ofrecerle nuevos servicios y
+                  enviarle información comercial, incluso por vía electrónica,
+                  relacionada con las novedades y promociones de la Compañía.
+                </p>
+              </div>
               <p className="text-left text-xl w-full px-6">
                 Siempre que se solicite, y el Usuario facilite, una dirección de
                 correo electrónico, teléfono móvil u otro medio de comunicación
@@ -56,13 +58,13 @@ export default function PoliticaPrivacidad() {
                 usted solicita. La falta de cumplimentación de los campos
                 determinados como obligatorios o el suministro de datos
                 incorrectos imposibilitará que la Compañía pueda prestarle los
-                servicios que solicite.{" "}
+                servicios que solicite.
               </p>
               <p className="text-left text-xl w-full px-6">
                 Para poder registrarse y navegar por el Portal usted debe ser
                 mayor de 14 años. La Compañía podrá utilizar su información
                 personal para verificar su edad y garantizar el cumplimiento de
-                esta restricción.{" "}
+                esta restricción.
               </p>
               <p className="text-left text-xl w-full px-6">
                 2. Cookies En la búsqueda de total transparencia en su relación
@@ -72,22 +74,29 @@ export default function PoliticaPrivacidad() {
                 requerimos para que accedan a nuestra Política de Cookies (más
                 abajo).
               </p>
-              <p className="text-left text-xl w-full px-6">
-                3. Contacto Usted tiene reconocidos los derechos de acceso,
-                rectificación, cancelación y oposición (A.R.C.O) los cuales
-                podrá ejercitar dirigiendo una comunicación postal, y fotocopia
-                del DNI/Pasaporte, con el asunto “Protección de Datos” a la
-                siguiente dirección: AZURASA 21 S.L,CIF B-74417858,C/ Doctor
-                Casal, nº4,3ºD,33001 Oviedo (Asturias).{" "}
-              </p>
-              <p className="text-left text-xl w-full px-6 flex flex-col">
-                4. Política de Cookies ¿Qué son las cookies? Una cookie es un
-                fichero que se descarga en su ordenador al acceder a
-                determinadas páginas web. Las cookies permiten a una página web,
-                entre otras cosas, almacenar y recuperar información sobre
-                hábitos de navegación de un usuario o un equipo y, dependiendo
-                de la información que contengan y de la forma que utilice su
-                equipo, pueden utilizarse para conocer al usuario.
+              <div className="text-left text-xl w-full px-6">
+                <p> 3. Contacto</p>
+                <p>
+                  Usted tiene reconocidos los derechos de acceso, rectificación,
+                  cancelación y oposición (A.R.C.O) los cuales podrá ejercitar
+                  dirigiendo una comunicación postal, y fotocopia del
+                  DNI/Pasaporte, con el asunto “Protección de Datos” a la
+                  siguiente dirección: AZURASA 21 S.L, CIF B-74417858, C/ Doctor
+                  Casal, nº4, 3ºD, 33001 Oviedo (Asturias).
+                </p>
+              </div>
+              <div className="text-left text-xl w-full px-6">
+                <p className="">4. Política de Cookies</p>
+                <div>
+                  <p>¿Qué son las cookies?</p> 
+                  <p>Una cookie es un fichero que se descarga
+                  en su ordenador al acceder a determinadas páginas web. Las
+                  cookies permiten a una página web, entre otras cosas,
+                  almacenar y recuperar información sobre hábitos de navegación
+                  de un usuario o un equipo y, dependiendo de la información que
+                  contengan y de la forma que utilice su equipo, pueden
+                  utilizarse para conocer al usuario.</p>
+                </div>
                 <p>
                   ¿Para qué utiliza las cookies esta página web y cuáles son?
                   Esta página web utiliza las cookies para la siguiente
@@ -101,30 +110,52 @@ export default function PoliticaPrivacidad() {
                   se analiza su navegación en nuestra página web con el fin de
                   mejorar la experiencia del usuario. (cookies: _utma, _utmb,
                   _utmc, _utmz).
-                </p>{" "}
-              </p>
-              <p className="text-left text-xl w-full px-6 flex flex-col">
-                ¿Cómo puedo desactivar o eliminar las cookies? Puede usted
-                permitir, bloquear o eliminar las cookies instaladas en su
-                equipo mediante la configuración de las opciones del navegador
-                instalado en su ordenador.
-                <p>
-                  – Firefox:
-                  https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we
+                </p>
+              </div>
+              <div className="text-left text-xl w-full px-6">
+                <p className="">
+                  ¿Cómo puedo desactivar o eliminar las cookies?
                 </p>
                 <p>
-                  – Chrome:
-                  https://support.google.com/accounts/answer/61416?hl=es
+                  Puede usted permitir, bloquear o eliminar las cookies
+                  instaladas en su equipo mediante la configuración de las
+                  opciones del navegador instalado en su ordenador.
                 </p>
                 <p>
-                  – Explorer:
-                  http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9
+                  – Firefox:{" "}
+                  <a
+                    href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we"
+                    target="_blank"
+                    className="text-red-400 hover:text-red-600"
+                  >
+                    https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we
+                  </a>
+                </p>
+                <p>
+                  – Chrome:{" "}
+                  <a
+                    href="https://support.google.com/accounts/answer/61416?hl=es"
+                    target="_blank"
+                    className="text-red-400 hover:text-red-600"
+                  >
+                    https://support.google.com/accounts/answer/61416?hl=es
+                  </a>
+                </p>
+                <p>
+                  – Explorer:{" "}
+                  <a
+                    href="http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9"
+                    target="_blank"
+                    className="text-red-400 hover:text-red-600"
+                  >
+                    http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9
+                  </a>
                 </p>
                 <p>
                   – Otros navegadores: consulte la documentación del navegador
                   que tenga instalado.
                 </p>
-              </p>
+              </div>
             </div>
           </div>
         </div>
