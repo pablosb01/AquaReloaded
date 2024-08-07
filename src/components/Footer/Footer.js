@@ -17,7 +17,7 @@ export default function Footer() {
             <Link href='/aviso-legal' className="border-b-2 border-transparent hover:border-b-2 hover:border-white">
               Aviso Legal
             </Link>
-            <Link href='/aviso-legal' className="border-b-2 border-transparent hover:border-b-2 hover:border-white">
+            <Link href='/condiciones-generales' className="border-b-2 border-transparent hover:border-b-2 hover:border-white">
               Condiciones Generales
             </Link>
             <a target='_blank' href="https://www.instagram.com/aquasellafest">
