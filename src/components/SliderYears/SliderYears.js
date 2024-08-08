@@ -14,8 +14,8 @@ function SliderYears() {
     slidesPerScroll: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplay: false,
-    autoplaySpeed: 2500,
+    autoplay: true,
+    autoplaySpeed: 2000,
     pauseOnHover: true,
   };
   return (

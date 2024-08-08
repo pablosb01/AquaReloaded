@@ -126,6 +126,19 @@
   object-fit: cover;
   aspect-ratio: 38/50;
 }
+.slidercamp-img{
+  width: 98%;
+  align-self: center;
+  padding-left: 2%;
+}
+.slidertent-img{
+  width: 50%;
+  height: auto;
+  min-height: 500px;
+}
+.text-slider{
+  display: flex !important;
+}
 
 
 body {
