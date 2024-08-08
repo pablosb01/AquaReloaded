@@ -109,6 +109,17 @@
   background: linear-gradient(90deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
 }
 
+.gradient2 {
+  background: linear-gradient(0deg, #D3793F 0 20%, #eb4f52f3 35% 50%, #d9254d 60% 100%);
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::marker {
+  display: none;
+}
+
 .slider-imguwu{
   height: 550px;
   width: 700px;

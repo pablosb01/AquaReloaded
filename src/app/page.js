@@ -13,7 +13,10 @@ import Link from "next/link"; */
 
 export default function Home() {
   return (
-    <main className="min-h-fit h-fit">
+
+    /* ESCONDO TODO EL CONTENIDO DE LA PAGINA EN MOVIL DE MOMENTO */
+
+    <main className="min-h-fit h-fit hidden lg:block">
       <Video />
       <div className="flex justify-evenly">
         <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
