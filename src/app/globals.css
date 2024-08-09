@@ -126,6 +126,16 @@
   object-fit: cover;
   aspect-ratio: 38/50;
 }
+.vip-img{
+  max-width: 575px;
+  height: auto;
+}
+.vip-img2{
+  width: 30%;
+  min-width: 300px;
+  height: 80%;
+  object-fit: cover;
+}
 .slidercamp-img{
   width: 98%;
   align-self: center;
@@ -136,8 +146,24 @@
   height: auto;
   min-height: 500px;
 }
+.slidervip-img{
+  width: 100%;
+  height: fit-content;
+  align-self: center;
+  padding-left: 2%;
+}
 .text-slider{
   display: flex !important;
+}
+.question-list{
+  list-style: none;
+  padding: 5px 0;
+}
+.question-list:hover{
+  cursor: pointer;
+}
+.question-list:focus{
+  color: rgb(245 158 11);
 }
 
 

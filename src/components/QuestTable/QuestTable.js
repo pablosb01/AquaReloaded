@@ -1,43 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import Test from './Test';
+import TestArray from '../Test/TestArray';
 
-export default function QuestTable() {
-  const [toggle, useToggle] = useState(false);
-  const [menuToggle, useMenuToggle] = useState(true);
+function QuestTable() {
 
-  function handleOpenMenu() {
-    useToggle(true);
-  }
-  function handleCloseAll() {
-    useToggle(false);
-  }
-  function handleClick(e) {
-    handleCloseAll();
-  }
 
   return (
-    <>
-      <div>
-        {toggle ? (
-          <button onClick={handleClick}>Click me</button>
-        ) : (
-          <button onClick={handleOpenMenu}>click me</button>
-        )}
-        <div
-          className={`bg-black w-full h-[100px] ${toggle ? "block" : "hidden"}`}
-        ></div>
-      </div>
-      <div>
-        {toggle ? (
-          <button onClick={handleClick}>Click me</button>
-        ) : (
-          <button onClick={handleOpenMenu}>click me</button>
-        )}
-        <div
-          className={`bg-black w-full h-[100px] ${toggle ? "block" : "hidden"}`}
-        ></div>
-      </div>
-    </>
+    <div className='w-full h-full border-2 border-rose-500 text-center'>
+      {TestArray.map((item, index) => (
+          <Test key={index} object={item}/>
+      ))}
+    </div>
+    /* <div>
+      <details open={openDetail === 0} onToggle={() => handleToggle(0)}>
+        <summary>Detalle 1</summary>
+        <p>Contenido del detalle 1.</p>
+      </details>
+
+      <details open={openDetail === 1} onToggle={() => handleToggle(1)}>
+        <summary>Detalle 2</summary>
+        <p>Contenido del detalle 2.</p>
+      </details>
+
+      <details open={openDetail === 2} onToggle={() => handleToggle(2)}>
+        <summary>Detalle 3</summary>
+        <p>Contenido del detalle 3.</p>
+      </details>
+    </div> */
+  
+
   );
 }
+
+export default QuestTable;
