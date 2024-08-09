@@ -1,7 +1,7 @@
-import NavBar from "@/components/NavBar/NavBar";
+
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
-import Image from "next/image";
+
 import SimpleSlider from "@/components/SimpleSlider/SimpleSlider";
 import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex justify-evenly">
         <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
           <div className="self-start pb-5">
-            <p className="text-4xl">Noticias</p>
+            <p className="text-4xl text-white">Noticias</p>
           </div>
           <div className="w-[550px]">
             <SimpleSlider />
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
           <div className="self-end pb-5">
-            <p className="text-4xl">MERCHANDISING</p>
+            <p className="text-4xl text-white">MERCHANDISING</p>
           </div>
           <div className="w-[550px]">
             <MerchanSlider/>

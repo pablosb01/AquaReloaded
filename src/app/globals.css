@@ -51,6 +51,13 @@
   transform: rotateX(180deg) translateY(2px);
   transition: all ease-in-out .5s;
 }
+.arrow-flipper{
+  transform: rotateX(0deg) translateY(2px);
+  transition: all ease-in-out .5s;
+}
+
+
+
 
 .hdr-link:hover{
   cursor: pointer;
@@ -58,12 +65,14 @@
 .hdr-link:hover .arrow-flip{
   transform: rotateX(0deg);
 }
+
 .hdr-link:hover .hdr-submenu{
   transform: translateY(16px) translateX(-70px);
 }
 .hdr-link:hover .hdr-submenu-long{
   transform: translateY(16px) translateX(-70px);
 }
+
 .hdr-submenu{
   transform: translateY(-200px) translateX(-70px);
   transition: all ease-in-out 1s;

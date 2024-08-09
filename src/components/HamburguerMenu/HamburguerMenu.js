@@ -7,6 +7,11 @@ import "./styles.css";
 export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
+  const [arriba, setArriba] = useState(true)
+
+  const toggleArriba = () => {
+    setArriba((prev) => !prev)
+  }
 
   const toggleMenu = () => {
     setIsOpen((prev) => !prev);
@@ -67,24 +72,26 @@ export default function HamburgerMenu() {
               LINEUP
             </p>
           </Link>
-          <details>
-            <Link href="/taquilla/abonos">
-              <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
-                ABONOS-ENTRADAS
-              </p>
-            </Link>
+          <details >
             <summary>
-              <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
+              <div className="text-2xl flex font-bold py-6 " onClick={toggleArriba}>
                 taquilla
                 <Image
                   src={"/w-arrow.svg"}
                   alt="arrow"
                   width={32}
                   height={32}
-                  className="arrow-flip"
+                  className={`${arriba ? 'arrow-flip':'arrow-flipper'}`}
                 />
-              </p>
+              </div>
             </summary>
+            <div>
+              <Link href="/taquilla/abonos">
+                <p className="text-2xl flex font-bold py-3 pl-10" onClick={toggleMenu}>
+                  ABONOS-ENTRADAS
+                </p>
+              </Link>
+            </div>
           </details>
           <Link href="/tour">
             <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
