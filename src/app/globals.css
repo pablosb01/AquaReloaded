@@ -92,8 +92,17 @@
 .video-embed{
   overflow: hidden;
   width: 100vw;
-  height: 1100px;
-  transform: translateY(-250px);
+  height: 800px;
+  transform: translateY(-300px);
+}
+
+@media (min-width: 1024px) {
+  .video-embed{
+    overflow: hidden;
+    width: 100vw;
+    height: 1100px;
+    transform: translateY(-250px);
+  }
 }
 .sombrita{
   filter: drop-shadow(
@@ -130,9 +139,17 @@ details > summary::marker {
 }
 
 .slider-imguwu{
-  height: 550px;
-  width: 700px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
+}
+
+@media (min-width: 720px) {
+  .slider-imguwu{
+    height: 550px;
+    width: 700px;
+    object-fit: cover;
+  }
 }
 
 .slider-imguwu2{
