@@ -65,7 +65,7 @@ export default function zonadescanso() {
                         <p>Los precios del Glamping son por tienda, no por persona (evidentemente, cada opción lleva un máximo de personas permitido).</p>
                         <p>Si tienes algún tipo de duda, puedes consultar con <span className="text-rose-500">hola@festents.com</span></p>
                     </div>
-                    <div className="md:w-[70%] w-[99%]">
+                    <div className="md:w-[80%] w-[99%]">
                         <h2 className={`md:text-6xl text-4xl font-bold ${bebas_neue.className} sombrita text-center py-8`}>NUESTRAS TIENDAS DE GLAMPING</h2>
                         <SliderTents/>
                     </div>

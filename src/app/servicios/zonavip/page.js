@@ -38,7 +38,7 @@ export default function zonavip() {
                             <p>Catering gratuito de fruta fresca y golosinas</p>
                         </div>
                     </div>
-                    <div className="relative w-[90%] md:w-[75%] flex flex-wrap-reverse gap-10 items-center md:h-[400px] box-border justify-center">
+                    <div className="relative w-[90%] md:w-[75%] flex flex-wrap gap-10 items-center h-fit box-border justify-center">
                         <img src="https://aquasella.com/wp-content/uploads/2023/11/cacique-3-1024x683.jpg" className="vip-img2"/>
                         <img src="https://aquasella.com/wp-content/uploads/2023/11/cacique-2-1024x683.jpg" className="vip-img2"/>
                         <img src="https://aquasella.com/2018/assets/images/noticias/zona-vip/zona-vip-4.jpg" className="vip-img2"/>
