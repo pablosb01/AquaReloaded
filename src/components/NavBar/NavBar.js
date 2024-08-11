@@ -3,13 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import HamburgerMenu from "../HamburguerMenu/HamburguerMenu";
 
 export default function NavBar() {
   const pathname = usePathname()
   return (
     <>
-      <header className="w-full h-fit bg-slate-100 pl-12 sticky top-0 z-50">
-        <div className="flex justify-between items-center"> 
+      <header className="w-full h-fit bg-slate-100 py-2 lg:py-0 lg:pl-12 sticky top-0 z-40">
+        <div className="flex justify-center lg:justify-between items-center"> 
+
+          <HamburgerMenu/>
+
           <a href='/' className="hrd-icon w-fit h-full box-border">
             <div>
                 <Image
@@ -21,6 +25,9 @@ export default function NavBar() {
                 />
             </div>
           </a>
+
+          {/* MENU DE DESKTOP */}
+
           <div className="w-[50%] h-full overflow-hidden items-center box-border hidden lg:flex">
             <Link href="/" className={`w-full h-full flex justify-center 
               ${pathname === "/" ? 'bg-gradient-to-r from-amber-500 from-20% to-pink-600 to-60% text-stone-200' : 'text-stone-700'}`}>
@@ -77,6 +84,11 @@ export default function NavBar() {
                   >TOUR</div>
               </Link>
           </div>
+
+          {/* HAMBURGUER MENU MOVIL */}
+
+          
+
         </div>
       </header>
     </>
