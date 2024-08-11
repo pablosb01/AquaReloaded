@@ -144,19 +144,36 @@ details > summary::marker {
   object-fit: cover;
 }
 
+.slider-imguwu2{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
 @media (min-width: 720px) {
   .slider-imguwu{
     height: 550px;
     width: 700px;
     object-fit: cover;
   }
+  .slider-imguwu2{
+    height: 700px;
+    width: 700px;
+    object-fit: cover;
+  }
 }
 
-.slider-imguwu2{
-  height: 700px;
-  width: 700px;
-  object-fit: cover;
+@media (min-width: 640px) {
+  .slider-imguwu2{
+    height: 700px;
+    width: 700px;
+    object-fit: cover;
+  }
 }
+
+
+
+
 
 
 body {

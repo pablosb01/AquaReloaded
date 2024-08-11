@@ -4,11 +4,11 @@ export default function LineUp() {
   return (
     <>
       <div className='flex justify-center'>
-        <div className="h-fit flex flex-col items-center m-5 pb-8 w-fit">
+        <div className="h-fit flex flex-col items-center m-5 p-12 md:pb-8 w-fit">
           <div className="self-center pb-5">
-            <p className="text-4xl">Line Up</p>
+            <p className="text-3xl md:text-4xl">Line Up</p>
           </div>
-          <div className="w-[700px]">
+          <div className="w-[300px] sm:w-[700px] sm:h-[700px]">
             <SliderArtistas />
           </div>
         </div>
