@@ -20,7 +20,7 @@ export default function lockers() {
                         <img src="https://aquasella.com/wp-content/uploads/2024/06/2.-Festival-8ft.jpg" className="w-[50%]"/>
                     </div>
                     <div className="flex flex-col gap-4 w-[90%]">
-                        <a className="self-center text-2xl text-amber-500 hover:text-rose-500 loca-link">
+                        <a className="self-center text-2xl text-amber-500 hover:text-rose-500 loca-link bg-slate-200 ">
                             RESERVA AQUI
                         </a>
                     </div>

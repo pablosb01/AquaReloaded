@@ -103,6 +103,7 @@
 }
 .loca-link{
   transition: all ease-in-out .3s;
+  cursor: pointer;
 }
 
 .gradient {
