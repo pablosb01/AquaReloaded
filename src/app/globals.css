@@ -39,7 +39,13 @@
   font-weight: 700;
   font-style: normal;
 }
-
+.lockers-btn{
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.lockers-box{
+  background: linear-gradient(30deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
+}
 
 .btn-effect{
   transition: all ease-in-out .4s;
@@ -55,10 +61,6 @@
   transform: rotateX(0deg) translateY(2px);
   transition: all ease-in-out .5s;
 }
-
-
-
-
 .hdr-link:hover{
   cursor: pointer;
 }
