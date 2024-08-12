@@ -1,7 +1,7 @@
-import NavBar from "@/components/NavBar/NavBar";
+
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
-import Image from "next/image";
+
 import SimpleSlider from "@/components/SimpleSlider/SimpleSlider";
 import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
 
@@ -13,22 +13,25 @@ import Link from "next/link"; */
 
 export default function Home() {
   return (
+
+    /* ESCONDO TODO EL CONTENIDO DE LA PAGINA EN MOVIL DE MOMENTO */
+
     <main className="min-h-fit h-fit">
       <Video />
-      <div className="flex justify-evenly">
-        <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
+      <div className="flex flex-col lg:justify-evenly mx-auto lg:flex-row">
+        <div className="h-fit flex flex-col items-center p-5 my-5 mx-auto lg:m-5 pb-8 w-fit">
           <div className="self-start pb-5">
-            <p className="text-4xl">Noticias</p>
+            <p className="text-4xl text-white">Noticias</p>
           </div>
-          <div className="w-[550px]">
+          <div className="w-[300px] md:w-[550px]">
             <SimpleSlider />
           </div>
         </div>
-        <div className="h-fit flex flex-col items-center p-5 m-5 pb-8 w-fit">
+        <div className="h-fit flex flex-col items-center p-5 my-5 mx-auto lg:m-5 pb-8 w-fit">
           <div className="self-end pb-5">
-            <p className="text-4xl">MERCHANDISING</p>
+            <p className="text-4xl text-white">MERCHANDISING</p>
           </div>
-          <div className="w-[550px]">
+          <div className="w-[300px]  md:w-[550px]">
             <MerchanSlider/>
           </div>
         </div>
