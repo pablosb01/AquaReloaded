@@ -10,7 +10,6 @@ function LockGT(){
 
     function handleGTShow(){
         setToggle(!toggle)
-        console.log("uwu")
     }
 
     return(
