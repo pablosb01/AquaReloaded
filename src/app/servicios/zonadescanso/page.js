@@ -10,13 +10,13 @@ export default function zonadescanso() {
             <div className={`relative flex flex-col gap-6 items-center w-full h-fit box-border md:py-16 py-4 ${roboto.className}`}>
                 <div className="relative w-full flex flex-col items-center justify-center md:h-[400px] h-[300px] overflow-hidden">
                     <div className="absolute w-full flex justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/05/CAMPING-1024x576.jpg" className="m-w-auto h-auto md:w-[50%] w-[95%]"/>
+                        <img src="https://aquasella.com/wp-content/uploads/2023/05/CAMPING-1024x576.jpg" className="m-w-auto h-auto lg:w-[50%] w-[95%]"/>
                     </div>
                     <p className={`md:text-6xl text-4xl font-bold ${bebas_neue.className} sombrita`}><a href="#rest-zone">Zona descanso</a> y <a href="#glamping">glamping</a></p>
                     {/*<p className={`md:text-2xl text-xl font-bold ${bebas_neue.className} sombrita`}>pulsa para ver más</p>*/}
                 </div>
                 <div id="rest-zone" className="relative flex flex-col gap-12 w-full md:py-24 py-12 box-border items-center">
-                    <div className="relative flex flex-col gap-4 md:w-[50%] w-[90%] text-[18px]">
+                    <div className="relative flex flex-col gap-4 lg:w-[50%] w-[90%] text-[18px]">
                         <h4 className="sombrita-tres self-center text-3xl">ZONA DESCANSO</h4>
                         <p>Como cada año, podrás alojarte en nuestra Zona de Descanso instalada en el recinto del festival, que permanecerá abierta desde el miércoles 14 a las 17:00h hasta el lunes 19 de agosto a las 12:00h de forma ininterrumpida.</p>
                         <p>Para poder acceder a la zona de Descanso, es necesario disponer de uno de estos productos: <br/> <strong className="text-rose-500">Abono general + Zona de Descanso </strong>*</p>
@@ -25,12 +25,12 @@ export default function zonadescanso() {
                     </div>
                     <div className="relative w-full flex flex-col items-center justify-center md:h-[400px] h-[300px] overflow-hidden">
                     <div className="absolute w-full flex justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-2-1024x683.jpg" className="m-w-auto h-auto md:w-[50%] w-[95%]"/>
+                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-2-1024x683.jpg" className="m-w-auto h-auto lg:w-[50%] w-[95%]"/>
                     </div>
                     <p className={`md:text-6xl text-4xl font-bold ${bebas_neue.className} sombrita text-center`}>Servicios de la zona de descanso</p>
                     {/*<p className={`md:text-2xl text-xl font-bold ${bebas_neue.className} sombrita`}>pulsa para ver más</p>*/}
                     </div>
-                    <div className="relative flex flex-col gap-4 md:w-[50%] w-[90%] text-[18px]">
+                    <div className="relative flex flex-col gap-4 lg:w-[50%] w-[90%] text-[18px]">
                         <p>Zonas de BAÑO Y DUCHAS,  con agua caliente *.</p>
                         <p>Sanitarios provistos de Baños, Lavabos, Espejos, Enchufes y atendidos por un equipo de mantenimiento y limpieza 24h. </p>
                         <p>Amplias Zonas de Sombra.</p>
@@ -48,7 +48,7 @@ export default function zonadescanso() {
                     {/* SE QUE TENGO QUE HACER LA TABLA ESTA PERO DE VERDAD ME DABA MUCHA PEREZA HOY*/}
                     
                     
-                    <div className="relative flex flex-col gap-4 md:w-[50%] w-[90%] text-[18px]">
+                    <div className="relative flex flex-col gap-4 lg:w-[50%] w-[90%] text-[18px]">
                         <p>También en 2024, podrás disfrutar del servicio de glamping, para lo que es necesario adquirir el Abono con Descanso. Para más información, consulta nuestro apartado de <a href="#glamping" className="loca-link text-amber-500 hover:text-rose-500">GLAMPING</a>. Próximamente podrás contratar el servicio de Glamping.</p>
                         <p>A continuación os dejamos unas <span className="text-rose-500">dudas / consultas frecuentes</span> sobre la Zona de Descanso.</p>
                         <QuestTable/>
@@ -56,7 +56,7 @@ export default function zonadescanso() {
                     </div>
                 </div>
                 <div className="relative flex flex-col gap-12 w-full md:py-6 py-3 box-border items-center">
-                <div className="relative flex flex-col gap-4 md:w-[50%] w-[90%] text-[18px]">
+                <div className="relative flex flex-col gap-4 lg:w-[50%] w-[90%] text-[18px]">
                         <h4 className="sombrita-tres self-center text-3xl">GLAMPING</h4>
                         <p>Un año más, puedes disfrutar una experiencia de lujo alojándote en la ZONA DE GLAMPING del festival. Descubre todas las opciones que te ofrecemos y elige la que mejor se adapte a tus necesidades. No dejes pasar la oportunidad y disfruta de una estancia con las MISMAS COMODIDADES DE UN HOTEL, bajo las estrellas.</p>
                         <p>Este área mantendrá <strong className="text-rose-500">los mismos horarios que la Zona de Descanso.</strong></p>
@@ -65,9 +65,9 @@ export default function zonadescanso() {
                         <p>Los precios del Glamping son por tienda, no por persona (evidentemente, cada opción lleva un máximo de personas permitido).</p>
                         <p>Si tienes algún tipo de duda, puedes consultar con <span className="text-rose-500">hola@festents.com</span></p>
                     </div>
-                    <div className="md:w-[80%] w-[99%]">
+                    <div className="lg:w-[80%] w-[99%]">
                         <h2 className={`md:text-6xl text-4xl font-bold ${bebas_neue.className} sombrita text-center py-8`}>NUESTRAS TIENDAS DE GLAMPING</h2>
-                        <SliderTents/>
+                        <SliderTents />
                     </div>
                 </div>
             </div>
