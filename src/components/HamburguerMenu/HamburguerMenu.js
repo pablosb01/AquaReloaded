@@ -73,19 +73,19 @@ export default function HamburgerMenu() {
       >
         <nav className="flex flex-col p-4">
           <Link href="/" className="flex flex-row">
-            <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
+            <p className="text-2xl flex font-bold py-2" onClick={toggleMenu}>
               HOME
             </p>
           </Link>
           <Link href="/lineup" className="flex flex-row">
-            <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
+            <p className="text-2xl flex font-bold py-2" onClick={toggleMenu}>
               LINEUP
             </p>
           </Link>
           <details>
             <summary>
               <div
-                className="text-2xl flex font-bold py-6 "
+                className="text-2xl flex font-bold py-2 "
                 onClick={toggleArriba2}
               >
                 taquilla
@@ -130,7 +130,7 @@ export default function HamburgerMenu() {
           <details>
             <summary>
               <div
-                className="text-2xl flex font-bold py-6 "
+                className="text-2xl flex font-bold py-2 "
                 onClick={toggleArriba}
               >
                 servicios
@@ -252,7 +252,7 @@ export default function HamburgerMenu() {
           <details>
             <summary>
               <div
-                className="text-2xl flex font-bold py-6 "
+                className="text-2xl flex font-bold py-2 "
                 onClick={toggleArriba3}
               >
                 info
@@ -291,7 +291,7 @@ export default function HamburgerMenu() {
           </details>
 
           <Link href="/tour" className="flex flex-row">
-            <p className="text-2xl flex font-bold py-6" onClick={toggleMenu}>
+            <p className="text-2xl flex font-bold py-2" onClick={toggleMenu}>
               Tour
             </p>
           </Link>
