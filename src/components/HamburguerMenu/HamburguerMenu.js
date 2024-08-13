@@ -82,7 +82,7 @@ export default function HamburgerMenu() {
               LINEUP
             </p>
           </Link>
-          <details>
+          <details name='massabeelperroporsanchequeporperro'>
             <summary>
               <div
                 className="text-2xl flex font-bold py-2 "
@@ -127,7 +127,7 @@ export default function HamburgerMenu() {
               </Link>
             </div>
           </details>
-          <details>
+          <details name='massabeelperroporsanchequeporperro'>
             <summary>
               <div
                 className="text-2xl flex font-bold py-2 "
@@ -249,7 +249,7 @@ export default function HamburgerMenu() {
             </div>
           </details>
 
-          <details>
+          <details name='massabeelperroporsanchequeporperro'>
             <summary>
               <div
                 className="text-2xl flex font-bold py-2 "

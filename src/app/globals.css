@@ -125,6 +125,12 @@
   transition: all ease-in-out .3s;
   cursor: pointer;
 }
+.agrandar{
+  transition: all ease-in-out 0.5s;
+}
+.agrandar:hover{
+  transform: scale(1.1);
+}
 
 .gradient {
   background: linear-gradient(90deg, #D3793F 0 25%, #eb4f52f3 35% 40%, #d9254d 60% 100%);
