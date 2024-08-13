@@ -23,9 +23,9 @@ export default function zonavip() {
                         <p className={`text-center font-bold text-amber-500 text-2xl tracking-wide ${bebas_neue.className}`}>** El Upgrade para las Entradas de Día, tendrá un precio reducido de 40€ y sólo se podrá adquirir en la taquilla del festival.</p>
                     </div>
                     </div>  
-                    <div className="relative w-[90%] flex gap-10 items-center md:h-fit box-border justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-2-1024x683.jpg" className="vip-img"/>
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-3-1-1024x683.jpg" className="vip-img"/>
+                    <div className="relative w-[90%] md:w-[75%] flex flex-col md:flex-row gap-10 items-center h-fit box-border justify-center">
+                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-2-1024x683.jpg" className="vip-img2 md:vip-img"/>
+                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-3-1-1024x683.jpg" className="vip-img2 md:vip-img"/>
                     </div>
                     <div className="relative flex flex-col gap-4 md:w-[60%] w-[90%] text-[18px]">
                         <h4 className={`sombrita self-center md:text-6xl text-4xl tracking-wide ${bebas_neue.className}`}>SERVICIOS ZONA VIP</h4>

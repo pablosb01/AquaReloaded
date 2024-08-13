@@ -16,15 +16,15 @@ function SliderTents() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     pauseOnHover: true,
   };
   return (
-    <div className="">
+    <div className="p-10">
       <Slider {...settings}>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>
               Emperor Tent
             </h2>
@@ -41,19 +41,19 @@ function SliderTents() {
             <p>Mesilla y sillas</p>
             <p>Linterna</p>
             <p>Candado</p>
-            <p>Wlcome Drink</p>
+            <p>Welcome Drink</p>
             <p>Desayuno buffet</p>
             <p>
               Medidas aproximadas de la tienda: hasta 8m x 5m, con dos palos
             </p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/emperor-2-1024x768.jpg"
           />
         </div>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>Bell Tent</h2>
             <p>
               Cuando quieres ir al festival pero no quieres ni cargar, ni montar
@@ -74,12 +74,12 @@ function SliderTents() {
             <p>Medidas aproximadas de la tienda: hasta 5m de diámetro</p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/bell-tent-colchn-espuma-image-50439681-2417x1813-1-1024x768.png"
           />
         </div>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>
               Deluxe Doble
             </h2>
@@ -99,12 +99,12 @@ function SliderTents() {
             <p>Medidas aproximadas de la tienda: 2,35m x 2,35m</p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/deluxe-doble-colchn-espuma-image-50382593-2000x2666-1-1024x986.png"
           />
         </div>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>
               Deluxe Individual
             </h2>
@@ -121,12 +121,12 @@ function SliderTents() {
             <p>Medidas aproximadas de la tienda: 2,35m x 2,35m</p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/deluxe-individual-colchn-espuma-image-67203329-2417x1813-1-1024x1024.png"
           />
         </div>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>Easy Tent</h2>
             <p>
               Tiendas ya montadas, en formato para hasta dos personas en la zona
@@ -146,12 +146,12 @@ function SliderTents() {
             <p>Buen rollo de serie</p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/modificada-2000x3000-2-910x1024.png"
           />
         </div>
-        <div className="flex flex-row gap-12 items-center justify-between text-slider h-[500px] overflow-hidden">
-          <div className="w-[50%] pl-[2%] text-[18px]">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
+          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>Teepee tent</h2>
             <p>
             Las Teepee Tents son muy parecidas a las Bell Tent, con el mismo diámetro y capacidad para hasta 4 personas, pero más altas.
@@ -169,7 +169,7 @@ function SliderTents() {
             <p>Medidas aproximadas de la tienda: hasta 5m de diámetro</p>
           </div>
           <img
-            className="slidertent-img w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/TEEPPEE-1-1024x768-1.jpg"
           />
         </div>
