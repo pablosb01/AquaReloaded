@@ -6,7 +6,7 @@ import Slider from "react-slick";
 function SliderTour() {
   const settings = {
     infinite: true,
-    speed: 1500,
+    speed: 3000,
     rows: 1,
     slidesToShow: 1,
     adaptativeHeight: true,
@@ -15,7 +15,7 @@ function SliderTour() {
     slidesToScroll: 1,
     waitForAnimate: false,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     pauseOnHover: true,
   };
   return (

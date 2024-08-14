@@ -2,8 +2,8 @@
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
 
-import SimpleSlider from "@/components/SimpleSlider/SimpleSlider";
 import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
+import SliderOne from "@/components/SliderOne/SliderOne";
 
 /* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
 /* import "slick-carousel/slick/slick.css";
@@ -24,7 +24,7 @@ export default function Home() {
             <p className="text-4xl text-white">Noticias</p>
           </div>
           <div className="w-[300px] md:w-[550px]">
-            <SimpleSlider />
+            <SliderOne />
           </div>
         </div>
         <div className="h-fit flex flex-col items-center p-5 my-5 mx-auto lg:m-5 pb-8 w-fit">
