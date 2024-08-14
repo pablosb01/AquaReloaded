@@ -1,9 +1,9 @@
 
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
-
 import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
 import SliderOne from "@/components/SliderOne/SliderOne";
+import {NewsArray, MerchArray} from "@/components/Test/TestNewsPics";
 
 /* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
 /* import "slick-carousel/slick/slick.css";
@@ -18,21 +18,21 @@ export default function Home() {
 
     <main className="min-h-fit h-fit">
       <Video />
-      <div className="flex flex-col lg:justify-evenly mx-auto lg:flex-row">
-        <div className="h-fit flex flex-col items-center p-5 my-5 mx-auto lg:m-5 pb-8 w-fit">
+      <div className="flex flex-col lg:justify-evenly mx-auto w-[90%] lg:flex-row">
+        <div className="h-fit flex flex-col items-center w-[45%] box-border p-5 my-5 mx-auto lg:m-5 pb-8">
           <div className="self-start pb-5">
             <p className="text-4xl text-white">Noticias</p>
           </div>
-          <div className="w-[300px] md:w-[550px]">
-            <SliderOne />
+          <div className="w-[300px] lg:w-[100%]">
+            <SliderOne object={NewsArray}/>
           </div>
         </div>
-        <div className="h-fit flex flex-col items-center p-5 my-5 mx-auto lg:m-5 pb-8 w-fit">
+        <div className="h-fit flex flex-col items-center w-[45%] box-border p-5 my-5 mx-auto lg:m-5 pb-8">
           <div className="self-end pb-5">
             <p className="text-4xl text-white">MERCHANDISING</p>
           </div>
-          <div className="w-[300px]  md:w-[550px]">
-            <MerchanSlider/>
+          <div className="w-[300px]  lg:w-[100%]">
+            <SliderOne object={MerchArray}/>
           </div>
         </div>
       </div>

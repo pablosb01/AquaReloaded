@@ -146,11 +146,11 @@ details > summary::-webkit-details-marker {
 details > summary::marker {
   display: none;
 }
+.slider-container{
+}
 
 .slider-imguwu{
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
+  height: auto;
 }
 
 .slider-imguwu2{

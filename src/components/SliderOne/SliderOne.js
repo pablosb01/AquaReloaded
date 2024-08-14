@@ -2,7 +2,6 @@
 
 import React from "react";
 import Slider from "react-slick";
-import NewsArray from "../Test/TestNewsPics";
 
 function SliderOne({ object }){
     const settings = {
@@ -16,13 +15,12 @@ function SliderOne({ object }){
         pauseOnHover: true,
     };    
 
-    console.log(object)
     return(
         <div className="slider-container">
             <Slider {...settings}>
-                {NewsArray.map((item, index) => (
-                    <div key={index}>
-                        <img src={item.img} className={item.class} />
+                {object.map((item, index) => (
+                    <div key={index} className="object-fill">
+                        <img src={item.img} className={item.class}/>
                     </div>
                 ))}
             </Slider>
