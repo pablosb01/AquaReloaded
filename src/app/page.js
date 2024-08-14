@@ -16,9 +16,9 @@ export default function Home() {
 
     /* ESCONDO TODO EL CONTENIDO DE LA PAGINA EN MOVIL DE MOMENTO */
 
-    <main className="min-h-fit h-fit">
+    <main className="min-h-fit h-fit flex flex-col items-center">
       <Video />
-      <div className="flex flex-col lg:justify-evenly mx-auto w-[90%] lg:flex-row">
+      <div className="flex flex-col justify-center w-[90%] lg:flex-row gap-10">
         <div className="h-fit flex flex-col items-center w-[45%] box-border p-5 my-5 mx-auto lg:m-5 pb-8">
           <div className="self-start pb-5">
             <p className="text-4xl text-white">Noticias</p>
