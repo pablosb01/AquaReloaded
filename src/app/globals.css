@@ -150,6 +150,7 @@ details > summary::marker {
 }
 
 .slider-imguwu{
+  height: 600px !important;
   object-fit: cover !important;
 }
 
@@ -158,11 +159,7 @@ details > summary::marker {
   width: 300px;
   object-fit: cover;
 }
-.slider-imguwu3{
-  width: 575px !important;
-  height: 550px !important;
-  object-fit: cover !important;
-}
+
 .years-sldr-img{
   width: 98%;
   height: auto;
@@ -234,6 +231,9 @@ details > summary::marker {
     height: 700px;
     width: 700px;
     object-fit: cover;
+  }
+  .slider-imguwu{
+    height: 800px !important;
   }
 }
 

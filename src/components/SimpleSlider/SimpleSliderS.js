@@ -1,7 +1,7 @@
 'use client';
 
 import SliderOne from "../SliderOne/SliderOne";
-import NewsArray from "../Test/TestNewsPics";
+import NewsArray from "../../../public/TestNewsPics";
 
 function SimpleSliderS(){
 

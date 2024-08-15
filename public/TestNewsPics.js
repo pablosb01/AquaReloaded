@@ -8,8 +8,11 @@ export const NewsArray = [
 ]
 
 export const MerchArray = [
-    { img : 'https://aquasellashop.com/215-large_default/camiseta-techno-aquasella-2024-.jpg' , class : 'slider-imguwu'},
-    { img : 'https://aquasellashop.com/211-large_default/camiseta-raw-aquasella-2024-.jpg' , class : 'slider-imguwu3'},
-    { img : 'https://aquasellashop.com/212-large_default/camiseta-sinte-aquasella-2024.jpg' , class : 'slider-imguwu3'},
-    { img : 'https://aquasellashop.com/210-large_default/camiseta-hard-techno-aquasella-2024-.jpg' , class : 'slider-imguwu3'},
+    { img : './techno-shirt.png' , class : 'slider-imguwu'},
+    { img : './raw-shirt-front.png' , class : 'slider-imguwu'},
+    { img : './raw-shirt-back.png' , class : 'slider-imguwu'},
+    { img : './sinte-shirt-front.png' , class : 'slider-imguwu'},
+    { img : './sinte-shirt-back.png' , class : 'slider-imguwu'},
+    { img : './hard-shirt-front.png' , class : 'slider-imguwu'},
+    { img : './hard-shirt-back.png' , class : 'slider-imguwu'},
 ]
