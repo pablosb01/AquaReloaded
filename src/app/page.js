@@ -19,7 +19,7 @@ export default function Home() {
     <main className="min-h-fit h-fit flex flex-col items-center">
       <Video />
       <div className="flex flex-col justify-center w-[90%] lg:flex-row gap-10 h-fit">
-        <div className="h-[80vh] flex flex-col items-center lg:w-[45%] w-full box-border lg:p-5 my-5 mx-auto lg:m-5 pb-8">
+        <div className="h-fit flex flex-col items-center lg:w-[45%] w-full box-border lg:p-5 my-5 mx-auto lg:m-5 pb-8">
           <div className="lg:self-start pb-5">
             <p className="text-4xl text-white">Noticias</p>
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="lg:self-end pb-5">
             <p className="text-4xl text-white">MERCHANDISING</p>
           </div>
-          <div className="w-[99%] lg:w-[100%]">
+          <div className="w-[99%] lg:w-[100%] h-fit">
             <SliderOne object={MerchArray}/>
           </div>
         </div>

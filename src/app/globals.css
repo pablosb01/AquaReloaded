@@ -151,8 +151,9 @@ details > summary::marker {
 
 .slider-imguwu{
   width: 100% !important;
-  height: auto;
-  object-fit: cover !important;
+  height: auto !important;
+  object-fit: cover;
+  aspect-ratio: 12/13 !important;
 }
 
 .slider-imguwu2{

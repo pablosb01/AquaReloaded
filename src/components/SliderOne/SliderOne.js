@@ -19,7 +19,7 @@ function SliderOne({ object }){
         <div className="slider-container">
             <Slider {...settings}>
                 {object.map((item, index) => (
-                    <div key={index} className="object-cover uwuimg-dad">
+                    <div key={index} className="object-cover">
                         <img src={item.img} className={item.class}/>
                     </div>
                 ))}
