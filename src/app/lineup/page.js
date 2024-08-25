@@ -1,4 +1,5 @@
-import SliderArtistas from "@/components/SliderArtistas/SliderArtistas";
+import SliderOne from "@/components/SliderOne/SliderOne";
+import { ArtistArray } from "@/components/Test/TestNewsPics";
 
 export default function LineUp() {
   return (
@@ -9,7 +10,7 @@ export default function LineUp() {
             <p className="text-3xl md:text-4xl">Line Up</p>
           </div>
           <div className="w-[300px] sm:w-[700px] sm:h-[700px]">
-            <SliderArtistas />
+            <SliderOne object={ArtistArray} />
           </div>
         </div>
       </div>

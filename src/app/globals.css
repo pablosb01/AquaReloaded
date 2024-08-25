@@ -146,8 +146,6 @@ details > summary::-webkit-details-marker {
 details > summary::marker {
   display: none;
 }
-.slider-container{
-}
 
 .slider-imguwu{
   width: 100% !important;
@@ -163,13 +161,13 @@ details > summary::marker {
 }
 
 .years-sldr-img{
-  width: 98%;
+  width: 99%;
   height: auto;
-  object-fit: cover;
+  object-fit: fill;
   aspect-ratio: 38/50;
 }
 .tour-sldr-img{
-  width: 100%;
+  width: 99%;
   height: auto;
   object-fit: fill;
   aspect-ratio: 4/5;

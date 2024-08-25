@@ -19,9 +19,9 @@ function SliderOne({ object }){
         <div className="slider-container">
             <Slider {...settings}>
                 {object.map((item, index) => (
-                    <div key={index} className="object-cover">
+                    <a key={index} href={item.href} className="object-cover loca-link" target="_blank">
                         <img src={item.img} className={item.class}/>
-                    </div>
+                    </a>
                 ))}
             </Slider>
         </div>

@@ -1,11 +1,12 @@
-import SliderTour from "@/components/SliderTour/SliderTour";
 import { bebas_neue, roboto } from "../fonts";
+import { TourArray } from "@/components/Test/TestNewsPics";
+import SliderThree from "@/components/SliderThree/SliderThree";
 
 export default function tour() {
     return (
         <main className={`w-full m-w-[2500px] min-h-[80vh] h-full ${roboto.className}`}>
             <div className="flex flex-col m-w-[2500px] w-full items-center py-8">
-                <div className="lg:w-[70%] w-[90%] flex flex-col gap-12 items-center">
+                <div className="lg:w-[80%] w-[90%] flex flex-col gap-12 items-center">
                     <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita`}>AQUASELLA ON THE ROAD 2024</h2>
                         <div className="flex flex-col items-center w-full gap-12 text-[18px]">
                             <img src="https://aquasella.com/wp-content/uploads/2024/03/imagen-principal-tour.jpg" className="w-[90%]"/>
@@ -18,7 +19,7 @@ export default function tour() {
                                 <p>El festival se celebra este verano los días 14, 15, 16, 17 y 18 de agosto en los alrededores de la localidad asturiana de Arriondas, aunque el recinto se encuentra en el término municipal de Cangas de Onís.</p>
                             </div>
                             <div className="w-full">
-                                <SliderTour/>
+                                <SliderThree object={TourArray}/>
                             </div>
                             <div className="">
                                 <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita tracking-wide`}>FORMA PARTE DEL</h2>
