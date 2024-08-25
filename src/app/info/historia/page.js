@@ -18,7 +18,7 @@ export default function historia() {
               Érase una vez Aquasella...
             </h2>
             <div className={`flex flex-col gap-6 md:gap-0 pt-12 h-fit w-full items-center box-border ${roboto.className}`}>
-              <div className="flex flex-col gap-5 w-[95%] lg:w-[50%] h-full px-4 pb-10">
+              <div className="flex flex-col gap-5 w-[95%] lg:w-[60%] h-full px-4 pb-10">
                 <p className="text-left text-xl w-full">
                   Corría 1997 cuando el festival Aquasella nacía como un evento
                   musical creado por unos fanáticos del TECHNO. Empezó como una

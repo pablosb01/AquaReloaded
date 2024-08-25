@@ -12,7 +12,7 @@ export default function location() {
           >
             Bienvenidos a Aquasella Festival
           </h2>
-          <p className="text-left text-xl w-full px-6">
+          <p className="text-center lg:text-left text-xl w-full px-6">
             Aquasella se celebra cada verano en El Valle de la Música, un
             verdadero paraíso natural enclavado en el entorno del Río Sella,
             recurso económico y generador de riqueza en la Comarca de los Picos
@@ -25,7 +25,7 @@ export default function location() {
             width="1150px"
           />
         </div>
-        <div className="w-[75%] max-w-[85%] flex flex-col justify-center items-center">
+        <div className="lg:w-[75%] max-w-[85%] flex flex-col justify-center items-center">
           <h2
             className={`text-center font-bold text-6xl w-full sombrita ${bebas_neue.className}`}
           >
@@ -42,15 +42,15 @@ export default function location() {
             ></iframe>
           </div>
         </div>
-        <div className="flex flex-row justify-between items-center w-[1200px] max-w-[90%]">
-          <div className="w-[40%] flex flex-col gap-6">
+        <div className="flex flex-col text-center lg:text-left lg:flex-row justify-between gap-4 lg:gap-0 items-center w-[1200px] max-w-[90%]">
+          <div className="lg:w-[40%] flex flex-col lg:gap-6 gap-2">
             <h2 className="text-2xl font-bold sombrita">Coordenadas GPS</h2>
             <p className="">
               43.39334325750229, -5.178212494848635 <br /> Aquasella <br />{" "}
               Arriondas/Cangas de Onís, Asturias <br /> 33547
             </p>
           </div>
-          <div className="w-[60%] flex flex-col text-right text-[18px] gap-3">
+          <div className="lg:w-[60%] flex flex-col lg:text-right text-[18px] gap-3">
             <p>
               <strong>Ruta en coche desde Madrid: </strong>Haz&nbsp;
               <a
