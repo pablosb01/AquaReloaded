@@ -270,3 +270,47 @@ export const TourArray = [
     class: "tour-sldr-img",
   },
 ];
+export const GlampingArray = [
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/emperor-2-1024x768.jpg",
+    class: "slidertent-img",
+    title: "Emperor tent",
+    info: "Si lo vuestro es ir en grupo a todas partes, la Emperor Tent totalmente equipada es vuestra solución de alojamiento Premium hasta 8 personas.",
+    equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Mesilla y sillas" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: hasta 8m x 5m, con dos palos"],
+  },
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/bell-tent-colchn-espuma-image-50439681-2417x1813-1-1024x768.png",
+    class: "slidertent-img",
+    title: "Bell tent",
+    info: "Cuando quieres ir al festival pero no quieres ni cargar, ni montar y desmontar tu tienda, la Bell Tent totalmente equipada es tu solución de alojamiento premium. Capacidad para alojar de 1 a 4 personas.",
+    equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Mesilla y sillas" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: hasta 5m de diámetro"],
+  },
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/deluxe-doble-colchn-espuma-image-50382593-2000x2666-1-1024x986.png",
+    class: "slidertent-img",
+    title: "Deluxe Doble",
+    info: "Adaptamos el confort de las Bell Tent a un formato más económico y personal. Tiendas con capacidad para una o dos personas.",
+    equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: 2,35m x 2,35m"],
+  },
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/emperor-2-1024x768.jpg",
+    class: "slidertent-img",
+    title: "Deluxe Individual",
+    info: "Es el mismo concepto Deluxe Doble pero en formato Individual.",
+    equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: 2,35m x 2,35m"],
+  },
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/modificada-2000x3000-2-910x1024.png",
+    class: "slidertent-img",
+    title: "Easy Tent",
+    info: "Tiendas ya montadas, en formato para hasta dos personas en la zona glamping del Festival, donde alojarte y disfrutar con total comodidad. Sin necesidad de cargar, montar y desmontar la tienda, ni pelear por un pedazo de terreno aceptable, nosotros lo tenemos todo listo para que cuando llegues solo te tengas que preocupar de divertirte.",
+    equip: [ "Suelo acolchado (esterilla tipo yoga)" , "Linterna" , "Candado" , "Medidas aprox. de la tienda: 2,35m x 2,35m" , "Buen rollo de serie"],
+  },
+  {
+    img: "https://aquasella.com/wp-content/uploads/2024/03/TEEPPEE-1-1024x768-1.jpg",
+    class: "slidertent-img",
+    title: "Teepee tent",
+    info: "Las Teepee Tents son muy parecidas a las Bell Tent, con el mismo diámetro y capacidad para hasta 4 personas, pero más altas.",
+    equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Mesilla y sillas" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: hasta 5m de diámetro"],
+  },
+];

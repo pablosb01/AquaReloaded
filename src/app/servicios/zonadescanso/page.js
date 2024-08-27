@@ -2,6 +2,8 @@ import { bebas_neue, roboto } from "@/app/fonts";
 import QuestTable from "@/components/QuestTable/QuestTable";
 import SliderCamp from "@/components/SliderCamp/SliderCamp";
 import SliderTents from "@/components/SliderTents/SliderTents";
+import SliderText from "@/components/SliderText/SliderText";
+import { GlampingArray } from "@/components/Test/TestNewsPics";
 import Link from "next/link";
 
 export default function zonadescanso() {
@@ -178,7 +180,7 @@ export default function zonadescanso() {
             >
               NUESTRAS TIENDAS DE GLAMPING
             </h2>
-            <SliderTents />
+            <SliderText object={GlampingArray} />
           </div>
         </div>
       </div>

@@ -23,8 +23,8 @@ function SliderTents() {
   return (
     <div className="p-10">
       <Slider {...settings}>
-        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
-          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
+        <div className="flex flex-col lg:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 lg:h-[500px] overflow-hidden">
+          <div className="w-[90%] lg:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>
               Emperor Tent
             </h2>
@@ -48,12 +48,12 @@ function SliderTents() {
             </p>
           </div>
           <img
-            className="slidertent-img w-[5%] md:w-[50%] pr-[2%]"
+            className="slidertent-img w-[5%] lg:w-[50%] pr-[2%]"
             src="https://aquasella.com/wp-content/uploads/2024/03/emperor-2-1024x768.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 md:h-[500px] overflow-hidden">
-          <div className="w-[90%] md:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
+        <div className="flex flex-col lg:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 lg:h-[500px] overflow-hidden">
+          <div className="w-[90%] lg:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
             <h2 className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}>Bell Tent</h2>
             <p>
               Cuando quieres ir al festival pero no quieres ni cargar, ni montar
