@@ -293,7 +293,7 @@ export const GlampingArray = [
     equip: [ "Colchones espuma" , "Juego completo de ropa de cama" , "Linterna" , "Candado", "Welcome Drink", "Desayuno Buffet", "Medidas aprox. de la tienda: 2,35m x 2,35m"],
   },
   {
-    img: "https://aquasella.com/wp-content/uploads/2024/03/emperor-2-1024x768.jpg",
+    img: "https://aquasella.com/wp-content/uploads/2024/03/deluxe-individual-colchn-espuma-image-67203329-2417x1813-1-1024x1024.png",
     class: "slidertent-img",
     title: "Deluxe Individual",
     info: "Es el mismo concepto Deluxe Doble pero en formato Individual.",

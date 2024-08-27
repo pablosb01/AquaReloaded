@@ -18,16 +18,16 @@ function SliderText({ object }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
   };
   return (
-    <div className="p-10">
+    <div className="p-8">
       <Slider {...settings} >
       {firstArray.map((item, index) => (
-        <div id={index} className="flex flex-col lg:flex-row gap-12 items-center justify-between text-slider h-fit lg:p-10 lg:h-[500px] overflow-hidden">
-          <div className="w-[90%] lg:w-[50%] pl-[2%] text-[15px] lg:text-[18px]">
+        <div id={index} className="box-border flex flex-col lg:flex-row gap-4 lg:gap-12 items-center justify-between text-slider h-fit lg:h-[500px] overflow-hidden">
+          <div className="w-[100%] lg:w-[40%] lg:text-left text-center lg:pl-[2%] text-[15px] lg:text-[18px]">
             <h2
               className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}
             >
@@ -43,10 +43,12 @@ function SliderText({ object }) {
                 <p id={index}>{equip}</p>
               ))}
           </div>
-          <img
-            className={item.class}
-            src={item.img}
-          />
+          <div className="lg:w-[60%]">
+            <img
+              className={item.class}
+              src={item.img}
+            />
+          </div>
         </div>
       ))}
       </Slider>
