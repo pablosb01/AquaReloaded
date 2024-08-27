@@ -31,7 +31,7 @@ function SliderText({ object }) {
             <h2
               className={`font-bold sombrita-tres text-4xl pb-4 ${bebas_neue.className}`}
             >
-                {console.log(item)}
+                {item.title}
             </h2>
             <p>
                 {item.info}
