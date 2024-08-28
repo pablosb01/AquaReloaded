@@ -45,7 +45,7 @@ export default function lockers() {
                                 </div>
                             </div><div className="lockers-box flex flex-col w-full">
                                 <h4 className="border-b-2 border-stone-700 py-2 text-2xl text-center font-bold">CONSIGNA TAMAÑO L</h4>
-                                <div className="py-4 px-1">
+                                <div className="py-4 lg:px-2 px-1">
                                     <p>Locker grande con enchufe USB.</p>
                                     <p>Medidas: 30x30x40 cm</p>
                                     <strong>Precio Locker: 30€</strong>

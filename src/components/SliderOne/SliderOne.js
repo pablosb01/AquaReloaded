@@ -6,6 +6,7 @@ import Slider from "react-slick";
 function SliderOne({ object }){
     const settings = {
         infinite : true,
+        fade: true ,
         speed: 1000,
         rows: 1,
         slidesToShow: 1,
