@@ -19,7 +19,7 @@ export default function Home() {
       style={{
         backgroundImage: "url('/mimictears.png')",
         backgroundPosition: "center bottom",
-        paddingBottom: "3rem",
+        /* paddingBottom: "3rem", */
       }}
     >
       <Video />
@@ -38,7 +38,7 @@ export default function Home() {
               MERCHANDISING
             </p>
           </div>
-          <div className="w-[99%] lg:w-[100%] h-fit">
+          <div className="w-[99%] lg:w-[100%] h-fit pb-[50%]">
             <SliderOne object={MerchArray} />
           </div>
         </div>
