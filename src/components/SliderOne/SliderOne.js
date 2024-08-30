@@ -6,13 +6,12 @@ import Slider from "react-slick";
 function SliderOne({ object }){
     const settings = {
         infinite : true,
-        fade: true ,
-        speed: 1000,
+        speed: 1500,
         rows: 1,
         slidesToShow: 1,
         adaptativeHeight: true,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         pauseOnHover: true,
     };    
 
