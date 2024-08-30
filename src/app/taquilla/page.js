@@ -20,7 +20,7 @@ export default function taquilla() {
               src={tickets}
               alt="tickets"
               width={600}
-              className="agrandar2 sombrita-dos question-list"
+              className="levitation sombrita-dos question-list"
             />
           </a>
           <a href="/taquilla/bonocultural">
@@ -28,7 +28,7 @@ export default function taquilla() {
               src={bono}
               alt="bono"
               width={600}
-              className="agrandar2 sombrita-dos question-list"
+              className="levitation2 sombrita-dos question-list"
             />
           </a>
         </div>
