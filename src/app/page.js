@@ -1,17 +1,17 @@
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
 import SliderOne from "@/components/SliderOne/SliderOne";
-import { NewsArray, MerchArray } from "../components/Test/TestNewsPics";
+import { NewsArray, MerchArray } from "@/components/Test/TestNewsPics"; // Updated import path for consistency
 
 export default function Home() {
   return (
-    /* ESCONDO TODO EL CONTENIDO DE LA PAGINA EN MOVIL DE MOMENTO */
-
+    /* Hiding content on mobile for now */
     <main
       className="min-h-fit h-fit flex flex-col items-center bg-contain bg-no-repeat bg-center"
       style={{
         backgroundImage: "url('/mimictears.png')",
         backgroundPosition: "center bottom",
+        backgroundSize: "cover", // Ensures the background image covers the entire area
         /* paddingBottom: "3rem", */
       }}
     >
