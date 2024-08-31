@@ -6,7 +6,7 @@ export default function zonavip() {
             <div className="relative w-full h-fit box-border py-12 flex flex-col items-center gap-12">
                 <div className="relative w-full flex flex-col items-center justify-center md:h-[400px]">
                     <div className="absolute w-[90%] md:w-[60%] flex justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-1-1024x439.jpg" className="m-w-auto h-[150px] md:h-full w-full"/>
+                        <img alt="" src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-1-1024x439.jpg" className="m-w-auto h-[150px] md:h-full w-full"/>
                     </div>
                     <p className={`md:text-8xl text-6xl font-bold ${bebas_neue.className} sombrita`}>ZONA VIP</p>
                 </div>
