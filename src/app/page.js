@@ -1,14 +1,7 @@
 import React from "react";
 import Video from "@/components/Video/Video.jsx";
-import MerchanSlider from "@/components/MerchanSlider/MerchanSlider";
 import SliderOne from "@/components/SliderOne/SliderOne";
 import { NewsArray, MerchArray } from "../components/Test/TestNewsPics";
-
-/* import SimpleSlider from "../components/SimpleSlider/SimpleSlider";
-/* import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css"; */
-/* import Image from "next/image";
-import Link from "next/link"; */
 
 export default function Home() {
   return (

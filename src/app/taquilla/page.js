@@ -6,15 +6,14 @@ import bono from "../../../public/ticketsBONO.png";
 export default function taquilla() {
   return (
     <div
-      className="flex flex-col min-h-screen bg-cover bg-no-repeat bg-center"
+      className="flex flex-col min-h-screen bg-contain xl:bg-cover bg-no-repeat bg-center xl:pt-8 xl:pb-3"
       style={{
         backgroundImage: "url('/mimictears.png')",
         backgroundPosition: "center bottom",
-        paddingBottom: "3rem",
-        paddingTop: "8rem",
+        
       }}
     >
-      <div className="flex flex-grow items-center -translate-y-[15%]">
+      <div className="flex flex-grow items-center xl:-translate-y-[15%]">
         <div className="flex flex-row justify-around items-center h-full w-full">
           <a href="/taquilla/abonos">
             <Image

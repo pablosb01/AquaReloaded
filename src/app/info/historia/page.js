@@ -1,6 +1,5 @@
 import { bebas_neue, roboto } from "@/app/fonts";
 import SliderThree from "@/components/SliderThree/SliderThree";
-import SliderYears from "@/components/SliderYears/SliderYears";
 import { YearsArray } from "@/components/Test/TestNewsPics";
 import VideoHistoria from "@/components/Video/VideoHistoria";
 
