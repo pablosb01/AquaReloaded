@@ -179,9 +179,26 @@
     transform: rotate(0deg); /* Gira -15 grados */
   }
 }
+@keyframes uwu-loop {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg) translateY(-50px);
+  }
+  50% {
+    transform: rotate(-15deg) translateY(25px);
+  }
+  75% {
+    transform: rotate(15deg) translateY(-10px);
+  }
+  100%{
+    transform: rotate(-10deg) translateY(35px);
+  }
+}
 
 .levitation {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1.5s;
 }
 .levitation:hover {
   transform: translateY(-50px) scale(1.1) rotate(-10deg);
@@ -191,7 +208,7 @@
 }
 
 .levitation2:hover {
-  animation: rotate-loop 10s infinite alternate ease-in-out;
+  animation: uwu-loop 5s infinite alternate ease-in-out;
 }
 
 .gradient {

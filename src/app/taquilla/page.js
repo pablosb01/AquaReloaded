@@ -11,9 +11,10 @@ export default function taquilla() {
         backgroundImage: "url('/mimictears.png')",
         backgroundPosition: "center bottom",
         paddingBottom: "3rem",
+        paddingTop: "8rem",
       }}
     >
-      <div className="flex flex-grow items-center">
+      <div className="flex flex-grow items-center -translate-y-[15%]">
         <div className="flex flex-row justify-around items-center h-full w-full">
           <a href="/taquilla/abonos">
             <Image

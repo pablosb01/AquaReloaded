@@ -38,8 +38,8 @@ export default function NavBar() {
               <div className="font-bold text-2xl py-6 flex hdr-link hdr-submenu-link">LINE UP</div>
             </Link>
             <div href="#" className={`w-full h-full flex justify-center hdr-link hdr-submenu-link box-border
-              ${pathname === "/taquilla/abonos" || pathname === "/taquilla/bonocultural" ? 'bg-gradient-to-tr from-amber-500 from-25% to-pink-600 to-80% text-stone-200' : 'text-stone-700'}`}>
-                <div className="text-2xl flex font-bold py-6">TAQUILLA<Image src={`${pathname === "/taquilla/abonos" || pathname === "/taquilla/bonocultural" ? '/w-arrow.svg' : '/arrow.svg'}`} alt="arrow" width={32} height={32} className="arrow-flip"/>
+              ${pathname === "/taquilla/abonos" || pathname === "/taquilla/bonocultural" || pathname === "/taquilla" ? 'bg-gradient-to-tr from-amber-500 from-25% to-pink-600 to-80% text-stone-200' : 'text-stone-700'}`}>
+                <div href="/taquilla" className="text-2xl flex font-bold py-6"><Link href="/taquilla">TAQUILLA</Link><Image src={`${pathname === "/taquilla/abonos" || pathname === "/taquilla/bonocultural" || pathname === "/taquilla" ? '/w-arrow.svg' : '/arrow.svg'}`} alt="arrow" width={32} height={32} className="arrow-flip"/>
                   <div className="hdr-submenu h-fit w-64 text-xl absolute flex flex-col gap-5 top-10 mt-6 opacity-85 p-5 items-start">
                     <Link href="/taquilla/abonos"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">ABONOS-ENTRADAS<Image src="/buy.svg" alt="buy icon" width={24} height={24}/></Link>
                     <Link href="/taquilla/bonocultural"className="hdr-submenu-link w-full flex text-stone-100 items-center justify-between">BONO CULTURAL JOVEN<Image src="/perrosanxe.svg" alt="sanxe perro" width={24} height={24}/></Link>
