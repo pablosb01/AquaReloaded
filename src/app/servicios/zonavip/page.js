@@ -24,8 +24,8 @@ export default function zonavip() {
                     </div>
                     </div>  
                     <div className="relative w-[90%] md:w-[75%] flex flex-col md:flex-row gap-10 items-center h-fit box-border justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-2-1024x683.jpg" className="vip-img2 md:vip-img"/>
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-3-1-1024x683.jpg" className="vip-img2 md:vip-img"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-2-1024x683.jpg" className="vip-img2 md:vip-img"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2023/11/zona-vip-3-1-1024x683.jpg" className="vip-img2 md:vip-img"/>
                     </div>
                     <div className="relative flex flex-col gap-4 md:w-[60%] w-[90%] text-[18px]">
                         <h4 className={`sombrita self-center md:text-6xl text-4xl tracking-wide ${bebas_neue.className}`}>SERVICIOS ZONA VIP</h4>
@@ -39,9 +39,9 @@ export default function zonavip() {
                         </div>
                     </div>
                     <div className="relative w-[90%] md:w-[75%] flex flex-wrap gap-10 items-center h-fit box-border justify-center">
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/cacique-3-1024x683.jpg" className="vip-img2"/>
-                        <img src="https://aquasella.com/wp-content/uploads/2023/11/cacique-2-1024x683.jpg" className="vip-img2"/>
-                        <img src="https://aquasella.com/2018/assets/images/noticias/zona-vip/zona-vip-4.jpg" className="vip-img2"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2023/11/cacique-3-1024x683.jpg" className="vip-img2"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2023/11/cacique-2-1024x683.jpg" className="vip-img2"/>
+                        <img alt='not loading' src="https://aquasella.com/2018/assets/images/noticias/zona-vip/zona-vip-4.jpg" className="vip-img2"/>
                     </div>
             </div>
         </main>

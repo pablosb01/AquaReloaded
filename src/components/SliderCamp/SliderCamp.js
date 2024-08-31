@@ -22,22 +22,22 @@ function SliderCamp() {
     <div className="">
       <Slider {...settings}>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-3-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-3-1024x683.jpg' />
         </div>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-4-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-4-1024x683.jpg' />
         </div>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-6-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-6-1024x683.jpg' />
         </div>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/02/IMG_3827-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/02/IMG_3827-1024x683.jpg' />
         </div>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-7-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-7-1024x683.jpg' />
         </div>
         <div>
-            <img className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-8jpg-1024x683.jpg' />
+            <img alt='not loading' className='slidercamp-img' src='https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-8jpg-1024x683.jpg' />
         </div>
       </Slider>
     </div>

@@ -7,7 +7,7 @@ export default function transportes() {
                 <div className="lg:w-[70%] w-[90%] flex flex-col gap-12 items-center">
                 <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita`}><a href="#lanzaderas">LANZADERAS</a> / <a href="#buses">AUTOBUSES</a></h2>
                     <div className="flex flex-col items-center w-full gap-4 text-[18px]">
-                        <img src="https://aquasella.com/wp-content/uploads/2024/06/lanzaderas-web-1024x773.png" className="w-[80%]" id="lanzaderas"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/06/lanzaderas-web-1024x773.png" className="w-[80%]" id="lanzaderas"/>
                         <div className="flex flex-col items-center gap-4 w-[85%]">
                             <h4 className="sombrita-tres font-bold text-2xl text-center">Lanzaderas Aquasella – Te llevamos al festival 💪</h4>
                             <p>Si te alojas en Cangas de Onís o alrededores, o simplemente quieres dejar el coche aparcado en Cangas de Onís por comodidad, ya puedes llegar al Prau con nuestro <strong className="text-rose-500">SERVICIO DE LANZADERAS </strong>Aquasella 2024. De esta forma podrás llegar y marcharte del festi de una forma más rápida, segura y sostenible.</p>
@@ -39,7 +39,7 @@ export default function transportes() {
                             <p className={`text-2xl text-amber-500 text-bold ${bebas_neue.className} text-center`}>RETORNOS desde el recinto de AQUASELLA.</p>
                             <p className={`text-2xl text-rose-500 text-bold ${bebas_neue.className} text-center`}>* Este Servicio es exclusivo para los asistentes al festival. Se exigirá abono o entrada de día para acceder a las lanzaderas.</p>
                         </div>
-                        <img src="https://aquasella.com/wp-content/uploads/2024/03/2024.03.13_AQSPOST-825x1024.png" className="w-[80%] pt-12" id="buses"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/03/2024.03.13_AQSPOST-825x1024.png" className="w-[80%] pt-12" id="buses"/>
                         <div className="flex flex-col gap-6 w-[85%] text-left pb-12">
                             <p>Como cada edición, dispondremos de un Bus Oficial Aquasella con diversos puntos de salida desde todo el territorio nacional.</p>
                             <p>En el siguiente listado puedes consultar las ciudades de origen y destino de las diferentes rutas.</p>

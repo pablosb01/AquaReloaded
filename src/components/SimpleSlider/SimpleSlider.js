@@ -20,16 +20,16 @@ function SimpleSlider() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img className='slider-imguwu'src='/aqs.png' />
+          <img alt='not loading' className='slider-imguwu'src='/aqs.png' />
         </div>
         <div>
-          <img className='slider-imguwu' src='/sold-out.png' />
+          <img alt='not loading' className='slider-imguwu' src='/sold-out.png' />
         </div>
         <div>
-          <img className='slider-imguwu' src='/glamping.png' />
+          <img alt='not loading' className='slider-imguwu' src='/glamping.png' />
         </div>
         <div>
-          <img className='slider-imguwu' src='/aqssorteo.png' />
+          <img alt='not loading'className='slider-imguwu' src='/aqssorteo.png' />
         </div>
       </Slider>
     </div>

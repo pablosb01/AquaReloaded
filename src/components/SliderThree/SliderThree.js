@@ -22,7 +22,7 @@ function SliderThree({ object }){
             <Slider {... settings}>
                 {object.map((item, index) => (
                     <div key={index}>
-                        <img src={item.img} className={item.class}/>
+                        <img alt='not loading'src={item.img} className={item.class}/>
                     </div>
                 ))}
             </Slider>

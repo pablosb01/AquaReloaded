@@ -6,7 +6,7 @@ export default function bonocultural () {
             <div className="flex flex-col items-center py-8 gap-4">
                 <div className="w-[90%] h-fit flex flex-col items-center lg:text-left text-center gap-12">
                     <h2 className={`${bebas_neue.className} text-center text-4xl lg:text-6xl sombrita`}>VENTA BONO CULTURAL JOVEN (ABONOS) AQUASELLA 27ª ED.</h2>
-                    <img src="https://aquasella.com/wp-content/uploads/2024/07/sold-out-web-1024x700.jpg" className="lg:w-[65%] h-auto"/>
+                    <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/07/sold-out-web-1024x700.jpg" className="lg:w-[65%] h-auto"/>
                     <div className="lg:text-xl text-[18px] lg:w-[65%] flex flex-col gap-8">
                         <p><strong className="text-rose-500">IMPORTANTE:</strong> Sólo podrán comprar en esta modalidad aquellxs que tengan en su poder el <span className="text-rose-500">BONO CULTURAL JOVEN * </span>. Resto de compras se realizarán en la Taquilla general. </p>
                         <h4 className="sombrita-tres text-center">* El Bono Cultural Joven es una tarjeta prepago, virtual o física que solamente funciona en los comercios, empresas y entidades culturales adheridas como AQUASELLA. Esta tarjeta es personal e intransferible.</h4>

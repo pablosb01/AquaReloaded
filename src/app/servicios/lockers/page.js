@@ -19,7 +19,7 @@ export default function lockers() {
                             <p>Sólo habrá la posibilidad de reservar lockers online para todos los días del festival. Las reservas de un sólo día sólo se podrán hacer en el propio festival.</p>
                             <p>Se ubicarán todos en la Zona de día, en un área estratégica entre las zonas de descanso y el recinto de conciertos.</p>
                         </div>
-                        <img src="https://aquasella.com/wp-content/uploads/2024/06/2.-Festival-8ft.jpg" className="lg:w-[50%] w-full"/>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/06/2.-Festival-8ft.jpg" className="lg:w-[50%] w-full"/>
                     </div>
                     <div className="flex flex-col gap-6 w-[90%]">
                         <a href="https://reservations.be.mlunit.eu/iframe/78" target="_blank" className={`box-border flex self-center text-4xl text-stone-800 bg-rose-500 hover:scale-105 hover:text-stone-200 loca-link lockers-btn tracking-wide ${bebas_neue.className}`}>

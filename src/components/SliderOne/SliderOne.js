@@ -20,7 +20,7 @@ function SliderOne({ object }){
             <Slider {...settings}>
                 {object.map((item, index) => (
                     <a key={index} href={item.href} className="object-cover loca-link" target="_blank">
-                        <img src={item.img} className={item.class}/>
+                        <img alt='not loading' src={item.img} className={item.class}/>
                     </a>
                 ))}
             </Slider>

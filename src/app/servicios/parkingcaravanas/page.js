@@ -6,7 +6,7 @@ export default function parkingcaravanas(){
             <div className="flex flex-col py-8 items-center w-full justify-center">
                 <div className="lg:w-[70%] w-[90%] flex flex-col gap-4 items-center">
                     <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita`}>Parking Autocaravanas <br></br> En el recinto del Festival</h2>
-                    <img src="https://aquasella.com/wp-content/uploads/2024/08/web-autocaravanas-1-1024x706.png" className="w-[70%]"/>
+                    <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/08/web-autocaravanas-1-1024x706.png" className="w-[70%]"/>
                 </div>
                 <div className="flex flex-col gap-4 w-[90%] lg:w-[60%] h-fit py-6 text-[18px]">
                     <p>AQUASELLA quiere facilitar la experiencia de descanso y, tras múltiples peticiones, hemos podido reubicar los parkings de autocaravanas 1 y 2 en un Parking para Autocaravanas en el recinto del festival.</p>

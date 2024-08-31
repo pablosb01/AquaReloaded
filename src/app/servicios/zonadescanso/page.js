@@ -16,6 +16,7 @@ export default function zonadescanso() {
             <img
               src="https://aquasella.com/wp-content/uploads/2023/05/CAMPING-1024x576.jpg"
               className="m-w-auto h-auto lg:w-[50%] w-[95%]"
+              alt='not loading'
             />
           </div>
           <div
@@ -73,6 +74,7 @@ export default function zonadescanso() {
               <img
                 src="https://aquasella.com/wp-content/uploads/2023/11/zona-descanso-2-1024x683.jpg"
                 className="m-w-auto h-auto lg:w-[50%] w-[95%]"
+                alt='not loading'
               />
             </div>
             <p

@@ -9,7 +9,7 @@ export default function tour() {
                 <div className="lg:w-[80%] w-[90%] flex flex-col gap-12 items-center">
                     <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita`}>AQUASELLA ON THE ROAD 2024</h2>
                         <div className="flex flex-col items-center w-full gap-12 text-[18px]">
-                            <img src="https://aquasella.com/wp-content/uploads/2024/03/imagen-principal-tour.jpg" className="w-[90%]"/>
+                            <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/03/imagen-principal-tour.jpg" className="w-[90%]"/>
                             <div className="flex flex-col gap-4 w-[90%]">
                                 <p>En cada edición y con la intención de generar sinergias con los promotores de salas y conectar directamente con nuestro público, el festival realiza una serie de presentaciones oficiales en los club y eventos más representativos de música electrónica de nuestro país.</p>
                                 <p>En este 2024, el tour de presentaciones tendrá lugar entre los meses de marzo y agosto. Nuestro objetivo es llevar la experiencia Aquasella a todas las ciudades de España y haceros partícipes de este gran proyecto.</p>
@@ -37,7 +37,7 @@ export default function tour() {
                                     <p>Promoción de cada evento en redes de Peacock Agency</p>
                                     <p>El promotor recibirá dos ABONOS VIP de regalo</p>
                                 </div>
-                                <img src="https://aquasella.com/wp-content/uploads/2023/03/faldon.png" className="w-full py-12"/>
+                                <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2023/03/faldon.png" className="w-full py-12"/>
                             </div>
                         </div>
                 </div>
