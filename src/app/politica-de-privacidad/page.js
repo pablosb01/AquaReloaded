@@ -80,7 +80,7 @@ export default function PoliticaPrivacidad() {
                   Usted tiene reconocidos los derechos de acceso, rectificación,
                   cancelación y oposición (A.R.C.O) los cuales podrá ejercitar
                   dirigiendo una comunicación postal, y fotocopia del
-                  DNI/Pasaporte, con el asunto “Protección de Datos” a la
+                  DNI/Pasaporte, con el asunto &quot;Protección de Datos&quot; a la
                   siguiente dirección: AZURASA 21 S.L, CIF B-74417858, C/ Doctor
                   Casal, nº4, 3ºD, 33001 Oviedo (Asturias).
                 </p>

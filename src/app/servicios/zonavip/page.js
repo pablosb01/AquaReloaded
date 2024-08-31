@@ -19,7 +19,7 @@ export default function zonavip() {
                         <p>Entrada de Día **</p>
                     </div>
                     <div className="relative flex flex-col gap-6 pt-8">
-                        <p className={`text-center font-bold text-amber-500 text-2xl tracking-wide ${bebas_neue.className}`}>* El “UPGRADE VIP” NO ES UNA ENTRADA. Es imprescindible presentar este Upgrade junto con un Abono General, a un Abono General + Zona de Descanso ó una Entrada de Día.</p>
+                        <p className={`text-center font-bold text-amber-500 text-2xl tracking-wide ${bebas_neue.className}`}>* El &quot;UPGRADE VIP&quot; NO ES UNA ENTRADA. Es imprescindible presentar este Upgrade junto con un Abono General, a un Abono General + Zona de Descanso ó una Entrada de Día.</p>
                         <p className={`text-center font-bold text-amber-500 text-2xl tracking-wide ${bebas_neue.className}`}>** El Upgrade para las Entradas de Día, tendrá un precio reducido de 40€ y sólo se podrá adquirir en la taquilla del festival.</p>
                     </div>
                     </div>  
