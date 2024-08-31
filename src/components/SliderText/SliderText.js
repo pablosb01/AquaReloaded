@@ -26,7 +26,7 @@ function SliderText({ object }) {
       <Slider {...settings}>
         {firstArray.map((item, index) => (
           <div
-            id={index}
+            key={index}
             className="box-border flex flex-col lg:flex-row gap-4 lg:gap-12 items-center justify-between text-slider h-fit lg:h-[500px] overflow-hidden"
           >
             <div className="w-[100%] lg:w-[40%] lg:text-left text-center lg:pl-[2%] text-[15px] lg:text-[18px]">
@@ -40,7 +40,7 @@ function SliderText({ object }) {
                 Equipamiento:
               </h2>
               {item.equip &&
-                item.equip.map((equip, index) => <p id={index}>{equip}</p>)}
+                item.equip.map((equip, index) => <p key={index}>{equip}</p>)}
             </div>
             <div className="lg:w-[60%]">
               <img alt="not loading" className={item.class} src={item.img} />
