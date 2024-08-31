@@ -7,11 +7,11 @@ export default function Home() {
   return (
     /* Hiding content on mobile for now */
     <main
-      className="min-h-fit h-fit flex flex-col items-center bg-contain bg-no-repeat bg-center"
+      className="min-h-fit h-fit flex flex-col items-center bg-no-repeat bg-center"
       style={{
         backgroundImage: "url('/mimictears.png')",
         backgroundPosition: "center bottom",
-        backgroundSize: "cover", // Ensures the background image covers the entire area
+        backgroundSize: "contain", // Ensures the background image covers the entire area
         /* paddingBottom: "3rem", */
       }}
     >
