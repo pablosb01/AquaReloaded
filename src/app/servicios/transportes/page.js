@@ -7,9 +7,9 @@ export default function transportes() {
                 <div className="lg:w-[70%] w-[90%] flex flex-col gap-12 items-center">
                 <h2 className={`text-center text-6xl font-bold ${bebas_neue.className} sombrita`}><a href="#lanzaderas">LANZADERAS</a> / <a href="#buses">AUTOBUSES</a></h2>
                     <div className="flex flex-col items-center w-full gap-4 text-[18px]">
-                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/06/lanzaderas-web-1024x773.png" className="w-[80%]" id="lanzaderas"/>
-                        <div className="flex flex-col items-center gap-4 w-[85%]">
-                            <h4 className="sombrita-tres font-bold text-2xl text-center">Lanzaderas Aquasella – Te llevamos al festival 💪</h4>
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/06/lanzaderas-web-1024x773.png" className="lg:w-[80%] w-full" id="lanzaderas"/>
+                        <div className="flex flex-col items-center gap-4 lg:w-[85%] w-full lg:text-left text-center">
+                            <h4 className="sombrita-tres font-bold lg:text-4xl text-2xl text-center">Lanzaderas Aquasella <br></br> Te llevamos al festival 💪</h4>
                             <p>Si te alojas en Cangas de Onís o alrededores, o simplemente quieres dejar el coche aparcado en Cangas de Onís por comodidad, ya puedes llegar al Prau con nuestro <strong className="text-rose-500">SERVICIO DE LANZADERAS </strong>Aquasella 2024. De esta forma podrás llegar y marcharte del festi de una forma más rápida, segura y sostenible.</p>
                             <p>Además, si estás alojado con tu Autocaravana en el Parking externo al festival que hemos habilitado, dispondrás de una parada muy próxima a este recinto.</p>
                             <h4 className="sombrita-tres font-bold text-2xl pb-4">HORARIOS</h4>
@@ -39,15 +39,16 @@ export default function transportes() {
                             <p className={`text-2xl text-amber-500 text-bold ${bebas_neue.className} text-center`}>RETORNOS desde el recinto de AQUASELLA.</p>
                             <p className={`text-2xl text-rose-500 text-bold ${bebas_neue.className} text-center`}>* Este Servicio es exclusivo para los asistentes al festival. Se exigirá abono o entrada de día para acceder a las lanzaderas.</p>
                         </div>
-                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/03/2024.03.13_AQSPOST-825x1024.png" className="w-[80%] pt-12" id="buses"/>
-                        <div className="flex flex-col gap-6 w-[85%] text-left pb-12">
+                        <img alt='not loading' src="https://aquasella.com/wp-content/uploads/2024/03/2024.03.13_AQSPOST-825x1024.png" className="lg:w-[80%] w-full pt-12" id="buses"/>
+                        <div className="flex flex-col gap-6 lg:w-[85%] w-full pb-12 lg:text-left text-center">
                             <p>Como cada edición, dispondremos de un Bus Oficial Aquasella con diversos puntos de salida desde todo el territorio nacional.</p>
                             <p>En el siguiente listado puedes consultar las ciudades de origen y destino de las diferentes rutas.</p>
                             <p>Oviedo · Gijón · Santander · León · Bilbao · Burgos · Vitoria · Palencia · Zamora · Lugo · San Sebastián · Valladolid · A Coruña · Logroño · Salamanca · Pamplona · Santiago · Ourense · Ávila · Vigo · Madrid · Zaragoza · Toledo · Cáceres · Merida · Badajoz · Tarragona · Barcelona · Castellón · Valencia · Sevilla</p>
                             <p><strong>Si tu ciudad no está en este listado</strong> o tienes cualquier duda respecto a los buses, escribe a <strong className="text-rose-500">aquasella@viajexpres.com o llama/WhatsApp al 676 680 774.</strong></p>
                         </div>
-                        <iframe src="https://venta.enterticket.es/buy/?id=34319&amp;color=f43f5e" id="etktfrm34319" width="100%" frameborder="0" className="lg:h-[3500px] md:h-[4000px] h-[4300px]"></iframe>
-                    </div>
+                        <div className="w-full h-[300px] box-border">
+                            <iframe src="https://venta.enterticket.es/buy/?id=34319&amp;color=f43f5e" id="etktfrm34319" width="100%" frameborder="0" className="h-full min-h-fit"></iframe></div>
+                        </div>
                 </div>
             </div>
         </main>
