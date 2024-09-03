@@ -21,7 +21,7 @@ export default function PopUp() {
       }
     >
       <div className="flex flex-col z-50 w-[90%] lg:w-[50%] justify-center items-center bg-stone-600 bg-opacity-90 p-6 rounded-xl">
-        <button onClick={() => setPop(!pop)} className="z-50 self-end">
+        <button onClick={() => setPop(!pop)} className="z-50 self-end btn-effect">
           <svg
             className="w-8 h-8"
             fill="none"
