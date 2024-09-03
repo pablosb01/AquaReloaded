@@ -15,22 +15,22 @@ export default function taquilla() {
     >
       <div className="flex flex-grow items-center xl:-translate-y-[15%]">
         <div className="flex flex-row justify-around items-center h-full w-full">
-          <a href="/taquilla/abonos">
+          <Link href="/taquilla/abonos">
             <Image
               src={tickets}
               alt="tickets"
               width={600}
               className="levitation sombrita-dos question-list"
             />
-          </a>
-          <a href="/taquilla/bonocultural">
+          </Link>
+          <Link href="/taquilla/bonocultural">
             <Image
               src={bono}
               alt="bono"
               width={600}
               className="levitation2 sombrita-dos question-list"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

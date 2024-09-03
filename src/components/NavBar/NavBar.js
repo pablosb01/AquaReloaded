@@ -26,16 +26,16 @@ export default function NavBar() {
             </div>
           </a>
 
-          {/* MENU DE DESKTOP */}
+          {/* MENU DE DESKTOP hover:border-slate-800 border-b border-transparent*/}
 
           <div className="w-[50%] h-full overflow-hidden items-center box-border hidden lg:flex">
-            <Link href="/" className={`w-full h-full flex justify-center 
+            <Link href="/" className={`w-full h-full flex justify-center
               ${pathname === "/" ? 'bg-gradient-to-r from-amber-500 from-20% to-pink-600 to-60% text-stone-200' : 'text-stone-700'}`}>
-              <div className="font-bold text-2xl py-6 flex hdr-link hdr-submenu-link">HOME</div>
+              <div className="font-bold text-2xl py-6 flex hdr-link hdr-submenu-link agrandar2">HOME</div>
             </Link>
             <Link href="/lineup" className={`w-full h-full flex justify-center
             ${pathname === "/lineup" ? 'bg-gradient-to-r from-amber-500 from-20% to-pink-600 to-60% text-stone-200' : 'text-stone-700' }`}>
-              <div className="font-bold text-2xl py-6 flex hdr-link hdr-submenu-link">LINE UP</div>
+              <div className="font-bold text-2xl py-6 flex hdr-link hdr-submenu-link agrandar2">LINE UP</div>
             </Link>
             <div href="#" className={`w-full h-full flex justify-center hdr-link hdr-submenu-link box-border
               ${pathname === "/taquilla/abonos" || pathname === "/taquilla/bonocultural" || pathname === "/taquilla" ? 'bg-gradient-to-tr from-amber-500 from-25% to-pink-600 to-80% text-stone-200' : 'text-stone-700'}`}>
@@ -46,7 +46,7 @@ export default function NavBar() {
                  </div>
                 </div>
               </div>
-            <div href="/#" className={`w-full h-full flex justify-center hdr-link hdr-submenu-link 
+            <div href="/#" className={`w-full h-full flex justify-center hdr-link hdr-submenu-link
               ${pathname === "/servicios/zonadescanso" || pathname === "/servicios/zonavip" || pathname === "/servicios/parkingcaravanas" || pathname === "/servicios/lockers" || pathname === "/servicios/transportes"
                 ? 'bg-gradient-to-tr from-amber-500 from-25% to-pink-600 to-80% text-stone-200' : 'text-stone-700' }`}>
                <div className="py-6 font-bold text-2xl flex">SERVICIOS 
